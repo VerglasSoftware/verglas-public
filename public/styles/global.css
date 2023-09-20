@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+	font-family: "Instrument Sans", "Inter", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+	margin: 0 auto;
+
+	min-height: 100vh;
+	position: relative;
+
+	overflow-x: hidden;
+}
+
+html {
+	font-feature-settings: "cv03", "cv04", "cv11";
+}
+
+:root {
+	font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+	:root {
+		font-family: "Inter var", sans-serif;
+	}
+}
+
