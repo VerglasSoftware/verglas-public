@@ -15,7 +15,7 @@ export default function Layout({ children, title }) {
 						property="og:description"
 					/>
 					<meta content="https://verglas.io" property="og:url" />
-					<meta content="#9233ea" data-react-helmet="true" name="theme-color" />
+					<meta content="#6049d1" data-react-helmet="true" name="theme-color" />
 					<title>{title ? title + " | " + siteTitle : siteTitle}</title>
 				</Head>
 				<main className="justify-around">{children}</main>
