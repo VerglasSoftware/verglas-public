@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Outreach() {
 	return (
-		<Layout title={"Home"}>
+		<Layout title={"Outreach"}>
             <div className="h-[40vh] w-screen bg-hero2 bg-center bg-cover relative" id="hero">
                 <div className="absolute bottom-16 left-20 text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
@@ -70,7 +70,7 @@ export default function Outreach() {
                             </div>
                         </div>
                         <div>
-                            <span className="font-bold text-neutral-700 text-3xl">igloocode.</span>
+                            <span className="font-bold text-neutral-700 text-3xl">IglooCode<span className="font-light">&trade;</span>.</span>
                             <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
                             <p className="mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat.</p>
                             <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>

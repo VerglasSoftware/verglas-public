@@ -5,7 +5,8 @@ module.exports = {
 		extend: {
 			backgroundImage: {
 				hero: "url('/images/DSC01919.jpeg')",
-				hero2: "url('/images/DSC01819.jpeg')"
+				hero2: "url('/images/DSC01819.jpeg')",
+				hero3: "url('/images/IMG_5802.jpeg')"
 			},
 			colors: {
 				'primary': {

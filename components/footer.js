@@ -19,7 +19,7 @@ export default function Footer({ children, title }) {
 					Verglas, IglooCode™ and/or Educatr™ are not associated with Slemish College or Strathearn School, and any publications from us do not represent their views.
 				</p>
 				<p className="mt-1">
-					IglooCode™ and Educatr™ are trading names of Verglas Software Limited.
+					IglooCode™ and Educatr™ are trademarks of Verglas Software Limited.
 				</p>
 			</div>
 
