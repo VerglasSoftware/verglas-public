@@ -11,12 +11,15 @@ export default function Footer({ children, title }) {
 				className="brightness-[4]"
 			/>
 
-			<div className="text-primary-400/50 text-sm mt-4">
-				<p>
-					Verglas Software Limited is a company registered in England and Wales (no. 14838037). 'IglooCode' and 'Educatr' are trading names of Verglas Software Limited.
+			<div className="text-primary-400/50 text-xs mt-4 text-center">
+				<p className="mb-1">
+					Verglas Software Limited is a company registered in England and Wales (no. 14838037), and based in Northern Ireland. Registered office: 82a IP28 7DE.
 				</p>
-				<p>
-					Verglas, IglooCode and/or Educatr are not associated with Slemish College or Strathearn School, and any publications from us do not represent their views.
+				<p className="mb-1">
+					Verglas, IglooCode™ and/or Educatr™ are not associated with Slemish College or Strathearn School, and any publications from us do not represent their views.
+				</p>
+				<p className="mt-1">
+					IglooCode™ and Educatr™ are trading names of Verglas Software Limited.
 				</p>
 			</div>
 
