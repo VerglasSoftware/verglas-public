@@ -10,7 +10,7 @@ export default function Index({ allPostsData }) {
 	return (
 		<Layout title={"Home"}>
             <div className="h-[95vh] w-screen bg-hero bg-cover relative" id="hero">
-                <div className="absolute bottom-20 left-20 text-8xl font-extrabold">
+                <div className="absolute bottom-20 left-20 text-8xl font-extrabold hidden sm:block">
                     <div className="bg-white px-4 py-3 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-600 to-sky-400 bg-clip-text text-transparent">
                             inspiring the
@@ -60,7 +60,7 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100 hidden"><div className="w-2/3">
                     <div id="impact" className="py-14 flex items-center flex-col">
                         <span className="font-extrabold text-4xl">our impact.</span>
                         <div className="flex flex-row mt-8 gap-12">
@@ -80,7 +80,7 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center hidden"><div className="w-2/3">
                     <div id="committees" className=" py-20">
                         <div className="grid grid-cols-2 gap-12 mt-14 text-neutral-700">
                             <div>
@@ -127,7 +127,7 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
             
-            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100 hidden"><div className="w-2/3">
                     <div id="partners" className="py-14 flex items-center flex-col">
                         <span className="font-extrabold text-4xl">who we've worked with.</span>
                         <div className="flex flex-row mt-8 gap-12">
