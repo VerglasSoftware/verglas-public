@@ -20,14 +20,15 @@ export default function Products() {
             <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
                     <div id="about" className="py-20 pb-0 grid sm:grid-cols-2 gap-6">
                         <div className="flex justify-center items-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
+                            <p>Teaching isn't easy. Learning isn't easy. That's why we want to give both students and teachers exciting, new, easy-to-use platforms to learn and teach on, that easily integrate with the software and systems they're already used to using.</p>
                         </div>
                         <div className="flex justify-start items-start">
                             <span className="font-bold text-neutral-700 text-4xl text-end mb-4 sm:mb-0">engaging solutions to consolidate your teaching.</span>
                         </div>
                     </div>
                     <div id="about" className="pb-20">
-                        <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
+                        <p className="mt-4">Teachers have no time to learn how to use new software – we offer solutions that can instantly be used, with no need to waste time sitting for hours to make different question packs, set up user accounts for their students, or perform other time-wasting tasks.</p>
+                        <p className="mt-4">As students, we know that sometimes learning can be incredibly boring. We're addressing this by creating experiences that make class tests and activites exciting and engaging – making your students actually try their best to learn something new.</p>
                     </div>
             </div></div>
 
@@ -66,15 +67,16 @@ export default function Products() {
                         </div>
                         <div>
                             <span className="font-bold text-neutral-700 text-3xl">Educatr<span className="font-light">&trade;</span>.</span>
-                            <p className="mt-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in.</p>
-                            <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
+                            <p className="mt-4 mb-3">Educatr&trade; is our tried-and-tested educational competition platform, targeted towards computing classes. With various experiences to test your students with, including capture-the-flag competitions, one-at-a-time quizzes, minigames, and paper tests, you'll never be out of ideas to engage your students.</p>
+                            <Link href="https://educatr.app" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                         </div>
 
                     </div>
 
                     <div id="about" className="pb-20">
                         <span className="font-normal text-primary-800 text-2xl">"A great system to add some competitive edge during competition sessions."</span>
-                        <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
+                        <p className="mt-4">Educatr&trade; is currently in the alpha testing stage, and was used as the primary platform for the IglooCode&trade; 2023 programming competition event at Queen's University Belfast. We received much positive feedback from local teachers, which inspired us to open this platform to schools across the UK.</p>
+                        <p className="mt-4">Our private beta test is scheduled to begin in November 2023. To register for the beta, please fill in the form available at <a href="https://educatr.app/beta" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">educatr.app/beta</a>.</p>
                     </div>
 
             </div></div>
