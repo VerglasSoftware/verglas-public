@@ -9,7 +9,7 @@ import { getSortedPostsData } from '../lib/post';
 export default function Index({ allPostsData }) {
 	return (
 		<Layout title={"Home"}>
-            <div className="h-[95vh] w-screen bg-hero bg-cover relative" id="hero">
+            <div className="h-[75vh] sm:h-[95vh] w-screen bg-hero bg-cover relative" id="hero">
                 <div className="absolute bottom-20 left-20 text-8xl font-extrabold hidden sm:block">
                     <div className="bg-white px-4 py-3 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-600 to-sky-400 bg-clip-text text-transparent">
@@ -22,12 +22,21 @@ export default function Index({ allPostsData }) {
                         </span>
                     </div>
                 </div>
+
+                <div className="text-5xl font-extrabold block sm:hidden absolute bottom-20 w-fit">
+                    <div className="bg-white px-7 py-3 w-fit">
+                        <span className="bg-gradient-to-r from-fuchsia-600 to-sky-400 bg-clip-text text-transparent w-fit">
+                            inspiring the next generation
+                        </span>
+                    </div>
+                </div>
+
             </div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-2/3">
                     <div id="about" className=" py-20">
                         <span className="font-extrabold text-neutral-700 text-5xl">hey. we're verglas.</span>
-                        <div className="grid grid-cols-2 gap-12 mt-14 text-neutral-700">
+                        <div className="grid sm:grid-cols-2 gap-12 mt-14 text-neutral-700">
                             <div>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
@@ -41,14 +50,14 @@ export default function Index({ allPostsData }) {
                                 <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                             </div>
                             <div className="flex justify-center items-center relative">
-                            <div className="bg-red-900 w-64 h-56 absolute right-44 top-60 z-10 shadow-xl">
+                            <div className="bg-red-900 w-full sm:w-64 h-56 sm:absolute right-44 top-60 z-10 sm:shadow-xl block sm:hidden xl:block">
                                 <Image
                                 src={"/images/DSC01903.jpeg"}
                                 fill={true}
-                                style={{objectFit: "cover", objectPosition: "-65px"}}
+                                style={{objectFit: "cover"}}
                                 />
                             </div>
-                            <div className="bg-blue-900 w-[22rem] h-[26rem] absolute right-0 top-0">
+                            <div className="bg-blue-900 w-[22rem] h-[26rem] hidden right-0 top-0 xl:absolute sm:block">
                             <Image
                                 src={"/images/DSC01890.jpeg"}
                                 fill={true}
@@ -60,10 +69,10 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100 hidden"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-3/4 sm:w-2/3">
                     <div id="impact" className="py-14 flex items-center flex-col">
                         <span className="font-extrabold text-4xl">our impact.</span>
-                        <div className="flex flex-row mt-8 gap-12">
+                        <div className="grid sm:grid-cols-3 mt-8 gap-12">
                             <div className="flex flex-col items-center">
                                 <span className="text-6xl font-bold">16</span>
                                 <span className="text-xl font-semibold">secondary schools</span>
@@ -80,9 +89,9 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center hidden"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-2/3">
                     <div id="committees" className=" py-20">
-                        <div className="grid grid-cols-2 gap-12 mt-14 text-neutral-700">
+                        <div className="grid md:grid-cols-2 gap-12 mt-14 text-neutral-700">
                             <div>
                                 <button className="hover:bg-primary-100 w-full" onClick={() => {
                                     window.location.href = '/outreach'
@@ -127,14 +136,14 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
             
-            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100 hidden"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-3/4 sm:w-2/3">
                     <div id="partners" className="py-14 flex items-center flex-col">
-                        <span className="font-extrabold text-4xl">who we've worked with.</span>
-                        <div className="flex flex-row mt-8 gap-12">
+                        <span className="font-extrabold text-4xl sm:text-start text-center">who we've worked with.</span>
+                        <div className="grid sm:grid-cols-5 mt-8 gap-12">
                             <div className="flex flex-col items-center">
-                                <div className="w-48 h-24 relative">
+                                <div className="w-24 h-24 relative">
                                     <Image
-                                    src={"/images/kainos_transparent-2.webp"}
+                                    src={"/images/credit-logo.png"}
                                     fill={true}
                                     style={{objectFit: "contain", objectPosition: ""}}
                                     />
@@ -152,16 +161,16 @@ export default function Index({ allPostsData }) {
                             <div className="flex flex-col items-center">
                                 <div className="w-48 h-24 relative">
                                     <Image
-                                    src={"/images/Filetoupload,967358,en-2.png"}
+                                    src={"/images/kainos_transparent-2.webp"}
                                     fill={true}
                                     style={{objectFit: "contain", objectPosition: ""}}
                                     />
                                 </div>
                             </div>
                             <div className="flex flex-col items-center">
-                                <div className="w-24 h-24 relative">
+                                <div className="w-48 h-24 relative">
                                     <Image
-                                    src={"/images/credit-logo.png"}
+                                    src={"/images/Filetoupload,967358,en-2.png"}
                                     fill={true}
                                     style={{objectFit: "contain", objectPosition: ""}}
                                     />
@@ -180,10 +189,10 @@ export default function Index({ allPostsData }) {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-2/3">
                     <div id="news" className=" py-20">
                         <span className="font-extrabold text-neutral-700 text-3xl">verglas news & press releases.</span>
-                        <div className="grid grid-cols-4 gap-6 mt-14 text-neutral-700">
+                        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 mt-14 text-neutral-700">
 
                             {
                                 allPostsData.map(post => {
