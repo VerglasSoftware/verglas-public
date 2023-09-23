@@ -8,7 +8,7 @@ export default function Outreach() {
 	return (
 		<Layout title={"Outreach"}>
             <div className="h-[40vh] w-screen bg-hero2 bg-center bg-cover relative" id="hero">
-                <div className="absolute bottom-16 left-20 text-8xl font-extrabold">
+                <div className="absolute bottom-16 sm:left-20 text-6xl sm:text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             outreach at verglas.
@@ -17,8 +17,8 @@ export default function Outreach() {
                 </div>
             </div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-1/2">
-                    <div id="about" className="py-20 grid grid-cols-2 gap-6">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
+                    <div id="about" className="py-20 grid sm:grid-cols-2 gap-6">
                         <div className="flex justify-start items-start">
                             <span className="font-bold text-neutral-700 text-4xl">captivating the next generation of tech.</span>
                         </div>
@@ -32,10 +32,10 @@ export default function Outreach() {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-3/4 sm:w-1/2">
                     <div id="impact" className="py-14 flex items-center flex-col">
                         <span className="font-extrabold text-4xl">verglas events.</span>
-                        <div className="flex flex-row mt-8 gap-12">
+                        <div className="grid sm:grid-cols-2 md:grid-cols-4 mt-8 gap-12">
                             <div className="flex flex-col items-center">
                                 <span className="text-6xl font-bold">16</span>
                                 <span className="text-xl font-semibold">secondary schools</span>
@@ -56,8 +56,8 @@ export default function Outreach() {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-1/2">
-                    <div id="about" className="py-16 grid grid-cols-2 gap-12">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
+                    <div id="about" className="py-16 grid sm:grid-cols-2 gap-12">
                         <div>
                             <div className="flex justify-center items-center relative">
                                 <div className="bg-red-900 w-full h-[25rem]">
@@ -83,7 +83,7 @@ export default function Outreach() {
                         <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
                     </div>
 
-                    <div className="grid grid-cols-4 gap-6 mb-16 w-full">
+                    <div className="grid md:grid-cols-2 sm:grid-cols-4 gap-6 mb-16 w-full">
                         <div className="flex flex-col items-center relative w-full h-36">
                             <Image
                             src={"/images/DSC01854.jpeg"}
@@ -116,10 +116,10 @@ export default function Outreach() {
 
             </div></div>
 
-            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-2/3">
+            <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-3/4 sm:w-1/2">
                     <div id="partners" className="py-14 flex items-center flex-col">
-                        <span className="font-extrabold text-4xl">our outreach partners.</span>
-                        <div className="flex flex-row mt-8 gap-12">
+                        <span className="font-extrabold text-4xl sm:text-start text-center">our outreach partners.</span>
+                        <div className="grid sm:grid-cols-3 mt-8 gap-12">
                             <div className="flex flex-col items-center">
                                 <div className="w-48 h-24 relative">
                                     <Image
@@ -151,7 +151,7 @@ export default function Outreach() {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-1/2">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
 
                     <div id="about" className="pb-20 pt-16">
                         <span className="font-normal text-primary-800 text-2xl">"We are delighted that our STEM committee at Liberty IT were able to support this fantastic coding event for schools organised by three A Level students; Daniel, Aideen and Emma 👏🏻"</span>
