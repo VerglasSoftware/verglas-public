@@ -39,13 +39,13 @@ export default function Index({ allPostsData }) {
                         <div className="grid sm:grid-cols-2 gap-12 mt-14 text-neutral-700">
                             <div>
                                 <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
+                                We're a new startup based in Northern Ireland, developing software solutions to add competitive edge to the classroom and promote technology and programming to the next generation of IT enthusiasts. We want to make it easier for teachers to teach and test their students, while receiving detailed feedback and analytics to evaluate their lessons.
                                 </p>
                                 <p className="pt-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
+                                We were founded by a group of 17-18 year old students from Northern Ireland and England, with the help of the biggest software companies in the country. We're on a mission to inspire students - giving them the same opportunities to get into the industry and make likeminded friends that we were given.
                                 </p>
                                 <p className="pt-6 pb-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo sapien et sem elementum accumsan. Sed odio nisi, auctor ac dictum et, aliquet at risus.
+                                We're most well known for organizing the annual IglooCode programming competition for 13-15 year olds at Queen's University Belfast, in partnership with Kainos and Liberty IT. Our last event in Belfast welcomed over 100 aspiring programmers from 16 schools across the country.
                                 </p>
                                 <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                             </div>
@@ -106,7 +106,7 @@ export default function Index({ allPostsData }) {
                                     <div className="p-6 flex flex-col items-start">
                                         <span className="font-extrabold text-neutral-700 text-4xl">outreach.</span>
                                         <p className="text-start my-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
+                                            Here at Verglas, we have a huge committment to outreach. We run multiple programmes across Northern Ireland, with more in the planning phase, which are available to computing students from the UK. We also work directly with local secondary schools to organize invite-only events for their pupils, such as our biggest event, IglooCode, which last year welcomed over 100 aspiring programmers from County Antrim.
                                         </p>
                                         <Link href="/outreach" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                                     </div>
@@ -126,7 +126,7 @@ export default function Index({ allPostsData }) {
                                     <div className="p-6 flex flex-col items-start">
                                         <span className="font-extrabold text-neutral-700 text-4xl">software.</span>
                                         <p className="text-start my-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
+                                            As students ourselves, we understand that learning can be boring. We want to give teachers the opportunity to give their classes an excited buzz, providing them with solutions to engage and consolidate their students' learning, and in return give them detailed analytics to review how much knowledge is actually being retained. We work from local teachers from NI to develop platforms that really work for you.
                                         </p>
                                         <Link href="/products" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                                     </div>
