@@ -23,12 +23,12 @@ export default function Outreach() {
                             <span className="font-bold text-neutral-700 text-4xl">captivating the next generation of tech.</span>
                         </div>
                         <div className="flex justify-center items-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare. Vestibulum molestie dui et libero aliquet, ac interdum magna tincidunt.</p>
+                            <p>The team at Verglas were brought together due to our love and passion for IT and cybersecurity, and we want to give this opportunity to other children who may be interested in the industry. We believe that IT is a subject which can be enjoyed by everyone - regardless of background, religion, gender, sexuality or any other factors. </p>
                         </div>
                     </div>
                     <div id="about" className="pb-20">
                         <span className="font-normal text-primary-800 text-2xl">"A very well organised event and such a credit to the pupils that organised. A great system to add some competitive edge during the competition sessions. Well done to all."</span>
-                        <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
+                        <p className="mt-4">We pride ourselves on our innovative and engaging events for students. Our ultimate goal is to encourage the next generation to get further involved in the industry, but also to meet other like-minded individuals and have the opportunity to make lifelong friendships just like we did.</p>
                     </div>
             </div></div>
 
@@ -71,16 +71,16 @@ export default function Outreach() {
                         </div>
                         <div>
                             <span className="font-bold text-neutral-700 text-3xl">IglooCode<span className="font-light">&trade;</span>.</span>
-                            <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
-                            <p className="mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat.</p>
-                            <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
+                            <p className="mt-4">IglooCode&trade; is a Jeopardy-style Capture the Flag competition. Teams are made up of 4 people each, who log onto our custom-made platform to complete as many programming challenges as possible in two hours. We offer a wide range of categories, from Python, C#, HTML and Scratch, to binary, hexidecimal and logic gates.</p>
+                            <p className="mt-4 mb-4">This event runs annually at Queen's University Belfast, with support from Liberty IT and Kainos. In our inaugural year, we welcomed over 100 students from 16 secondary schools.</p>
+                            <Link href="https://iglooco.de" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                         </div>
 
                     </div>
 
-                    <div id="about" className="pb-20">
+                    <div id="about" className="pb-16">
                         <span className="font-normal text-primary-800 text-2xl">"The tasks were brilliant and incredibly well thought out, the software you created was astounding. The prizes were great and we really enjoyed the industry talks as well."</span>
-                        <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
+                        {/* <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p> */}
                     </div>
 
                     <div className="grid md:grid-cols-2 sm:grid-cols-4 gap-6 mb-16 w-full">
@@ -160,7 +160,7 @@ export default function Outreach() {
                             <span>Senior Data Scientist</span>
                             <span>Liberty IT</span>
                         </div>
-                        <p className="mt-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
+                        <p className="mt-12">We're very proud to have the support of some of the biggest IT companies in Northern Ireland. Our outreach partners have given us the backing we have needed over the past year to run our events. If your company is interested in supporting us in future, please get in touch via <a href="mailto:dana@verglas.io" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">dana@verglas.io</a>!</p>
                     </div>
 
             </div></div>
