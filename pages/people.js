@@ -35,7 +35,7 @@ export default function People() {
                         <div className="flex justify-start items-start">
                             <span className="font-medium text-neutral-700 text-4xl text-start">board of directors.</span>
                         </div>
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-12 mt-8">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
                             <div className="flex flex-col">
                                     <Image
                                     src={"/images/people/dan.jpg"}
@@ -95,7 +95,7 @@ export default function People() {
                         <div className="flex justify-start items-start">
                             <span className="font-medium text-neutral-700 text-4xl text-start">outreach committee.</span>
                         </div>
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-12 mt-8">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
                             {/* <div className="flex flex-col">
                                     <Image
                                     src={"/images/people/dan.jpg"}
@@ -156,10 +156,10 @@ export default function People() {
             </div></div>
 
             <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
-                    <div id="about" className="py-20 grid sm:grid-cols-2 gap-12">
+                    <div id="about" className="py-20 grid md:grid-cols-2 gap-12">
                         <div className="flex justify-start items-start flex-col">
-                            <span className="font-bold text-neutral-700 text-4xl sm:text-end mb-4">company policies & legal documents.</span>
-                            <p className="sm:text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat.</p>
+                            <span className="font-bold text-neutral-700 text-4xl md:text-end mb-4">company policies & legal documents.</span>
+                            <p className="md:text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat.</p>
                         </div>
                         <div className="flex justify-start items-start">
                             <ul>

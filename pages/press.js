@@ -12,7 +12,7 @@ export default function Press({ allPostsData }) {
 	return (
 		<Layout title={"Press centre"}>
             <div className="h-[30vh] w-screen bg-hero5 bg-center bg-cover relative" id="hero">
-                <div className="absolute bottom-10 left-20 text-7xl font-extrabold">
+                <div className="absolute bottom-11 sm:bottom-16 sm:left-20 text-5xl sm:text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             press centre.
@@ -22,8 +22,8 @@ export default function Press({ allPostsData }) {
             </div>
 
             <div className="w-screen flex items-center justify-center"><div className="w-3/4">
-                    <div id="about" className="py-20 grid grid-cols-2 gap-12">
-                        <div className="grid grid-cols-3 gap-4">
+                    <div id="about" className="py-20 grid sm:grid-cols-2 gap-12">
+                        <div className="grid md:grid-cols-3 gap-4">
                             <div></div>
                             <div className="col-span-2">
                                 <span className="font-bold text-neutral-700 text-4xl text-start">transparency and honesty.</span>
@@ -32,7 +32,7 @@ export default function Press({ allPostsData }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid md:grid-cols-2 gap-4">
                             {
                                 allPostsData.map((post) => {
                                     return (
