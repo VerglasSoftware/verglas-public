@@ -14,7 +14,7 @@ export default function Post({ postData }) {
             <div className="h-[25vh] w-screen bg-center bg-cover relative" id="hero" style={{
                 backgroundImage: `url('${postData.image}')`
             }}>
-                <div className="absolute bottom-10 left-20 text-5xl font-extrabold">
+                <div className="sm:absolute sm:pt-0 pt-16 sm:bottom-10 left-20 text-5xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             {postData.title}
@@ -23,7 +23,7 @@ export default function Post({ postData }) {
                 </div>
             </div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-1/2">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
                     <div id="about" className="py-20 gap-12">
 
                     <p className="text-start mb-10 text-neutral-400">
