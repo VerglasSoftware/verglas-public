@@ -4,7 +4,9 @@ import Layout from "../components/layout";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Index() {
+import { getSortedPostsData } from '../lib/post';
+
+export default function Index({ allPostsData }) {
 	return (
 		<Layout title={"Home"}>
             <div className="h-[95vh] w-screen bg-hero bg-cover relative" id="hero">
@@ -179,73 +181,34 @@ export default function Index() {
                         <span className="font-extrabold text-neutral-700 text-3xl">verglas news & press releases.</span>
                         <div className="grid grid-cols-4 gap-6 mt-14 text-neutral-700">
 
-                                <button className="hover:bg-primary-100 w-full">
-                                    <div className="w-full h-44 relative">
-                                        <Image
-                                        src={"/images/IMG_20230328_101512.jpg"}
-                                        fill={true}
-                                        style={{objectFit: "cover", objectPosition: ""}}
-                                        />
-                                    </div>
-                                    <div className="px-1 py-6 flex flex-col items-start">
-                                        <span className="font-extrabold text-neutral-700 text-xl text-start">igloocode 2024 press release.</span>
-                                        <p className="text-start my-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque.
-                                        </p>
-                                        <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Read more...</Link>
-                                    </div>
-                                </button>
-
-                                <button className="hover:bg-primary-100 w-full">
-                                    <div className="w-full h-44 relative">
-                                        <Image
-                                        src={"/images/IMG_20230328_101512.jpg"}
-                                        fill={true}
-                                        style={{objectFit: "cover", objectPosition: ""}}
-                                        />
-                                    </div>
-                                    <div className="px-1 py-6 flex flex-col items-start">
-                                        <span className="font-extrabold text-neutral-700 text-xl text-start">igloocode 2024 press release.</span>
-                                        <p className="text-start my-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque.
-                                        </p>
-                                        <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Read more...</Link>
-                                    </div>
-                                </button>
-
-                                <button className="hover:bg-primary-100 w-full">
-                                    <div className="w-full h-44 relative">
-                                        <Image
-                                        src={"/images/IMG_20230328_101512.jpg"}
-                                        fill={true}
-                                        style={{objectFit: "cover", objectPosition: ""}}
-                                        />
-                                    </div>
-                                    <div className="px-1 py-6 flex flex-col items-start">
-                                        <span className="font-extrabold text-neutral-700 text-xl text-start">igloocode 2024 press release.</span>
-                                        <p className="text-start my-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque.
-                                        </p>
-                                        <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Read more...</Link>
-                                    </div>
-                                </button>
-
-                                <button className="hover:bg-primary-100 w-full">
-                                    <div className="w-full h-44 relative">
-                                        <Image
-                                        src={"/images/IMG_20230328_101512.jpg"}
-                                        fill={true}
-                                        style={{objectFit: "cover", objectPosition: ""}}
-                                        />
-                                    </div>
-                                    <div className="px-1 py-6 flex flex-col items-start">
-                                        <span className="font-extrabold text-neutral-700 text-xl text-start">igloocode 2024 press release.</span>
-                                        <p className="text-start my-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque.
-                                        </p>
-                                        <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Read more...</Link>
-                                    </div>
-                                </button>
+                            {
+                                allPostsData.map(post => {
+                                    return (
+                                        <button className="hover:bg-primary-100 w-full" onClick={() => {
+                                            window.location.href = `/press/${post.date.split('-')[0] + '-' + post.date.split('-')[1]}/${post.slug}`;
+                                        }}>
+                                <div className="w-full h-36 relative">
+                                    <Image
+                                    src={post.image}
+                                    fill={true}
+                                    style={{objectFit: "cover", objectPosition: ""}}
+                                    />
+                                </div>
+                                <div className="px-1 py-4 flex flex-col items-start">
+                                    <span className="font-extrabold text-neutral-700 text-xl text-start">{post.title.toLowerCase()}</span>
+                                    <p className="text-start my-1 text-neutral-400">
+                                        on {new Date(post.date).toLocaleDateString('en-gb', {
+                                            day: 'numeric',
+                                            month: 'long',
+                                            year: 'numeric'
+                                        })}
+                                    </p>
+                                    <Link href={`/press/${post.date.split('-')[0] + '-' + post.date.split('-')[1]}/${post.slug}`} className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Read more...</Link>
+                                </div>
+                            </button>
+                                    )
+                                })
+                            }                                
 
                         </div>
                     </div>
@@ -254,3 +217,12 @@ export default function Index() {
         </Layout>
     )
 }
+
+export async function getStaticProps() {
+    const allPostsData = getSortedPostsData();
+    return {
+      props: {
+        allPostsData,
+      },
+    };
+  }

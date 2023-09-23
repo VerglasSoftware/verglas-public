@@ -10,7 +10,7 @@ export default function People() {
 	return (
 		<Layout title={"People and policies"}>
             <div className="h-[30vh] w-screen bg-hero4 bg-center bg-cover relative" id="hero">
-                <div className="absolute bottom-12 left-20 text-7xl font-extrabold">
+                <div className="absolute bottom-10 left-20 text-7xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             key people and policies.
