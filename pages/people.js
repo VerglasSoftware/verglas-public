@@ -10,7 +10,7 @@ export default function People() {
 	return (
 		<Layout title={"People and policies"}>
             <div className="h-[30vh] w-screen bg-hero4 bg-center bg-cover relative" id="hero">
-                <div className="absolute bottom-11 sm:bottom-16 sm:left-20 text-5xl sm:text-8xl font-extrabold">
+                <div className="absolute bottom-11 sm:bottom-10 sm:left-20 text-5xl sm:text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             key people and policies.
@@ -25,7 +25,7 @@ export default function People() {
                             <span className="font-bold text-neutral-700 text-4xl sm:text-end">striving for creativity and efficiency.</span>
                         </div>
                         <div className="flex justify-center items-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat.</p>
+                            <p>Our shareholders hand-pick the most innovative and creative minds to sit on the Board and Outreach Committee, to ensure that Verglas brings our customers, partners and attendees the best experience possible.</p>
                         </div>
                     </div>
             </div></div>
@@ -115,6 +115,7 @@ export default function People() {
                                     height={175}
                                     />
                                     <span className="mt-6 text-lg font-medium">Aideen McHugh</span>
+                                    <span className="mt-1">IglooCode&trade; co-founder.</span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://www.linkedin.com/in/aideen-m-431007263/">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
@@ -129,7 +130,7 @@ export default function People() {
                                     width={175}
                                     height={175}
                                     />
-                                    <span className="mt-6 text-lg font-medium">John Doe</span>
+                                    <span className="mt-6 text-lg font-medium">TBA</span>
                             </div>
                             <div className="flex flex-col">
                                     <Image
@@ -139,7 +140,7 @@ export default function People() {
                                     width={175}
                                     height={175}
                                     />
-                                    <span className="mt-6 text-lg font-medium">John Doe</span>
+                                   <span className="mt-6 text-lg font-medium">TBA</span>
                             </div>
                             <div className="flex flex-col">
                                     <Image
@@ -149,7 +150,7 @@ export default function People() {
                                     width={175}
                                     height={175}
                                     />
-                                    <span className="mt-6 text-lg font-medium">John Doe</span>
+                                    <span className="mt-6 text-lg font-medium">TBA</span>
                             </div>
                         </div>
                     </div>
@@ -159,7 +160,7 @@ export default function People() {
                     <div id="about" className="py-20 grid md:grid-cols-2 gap-12">
                         <div className="flex justify-start items-start flex-col">
                             <span className="font-bold text-neutral-700 text-4xl md:text-end mb-4">company policies & legal documents.</span>
-                            <p className="md:text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat.</p>
+                            <p className="md:text-end">Document filings from incorporation are available on <a href="https://find-and-update.company-information.service.gov.uk/company/14838037/filing-history" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Companies House</a> (no. 14838037).</p>
                         </div>
                         <div className="flex justify-start items-start">
                             <ul>
