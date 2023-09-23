@@ -8,7 +8,7 @@ export default function Products() {
 	return (
 		<Layout title={"Software"}>
             <div className="h-[40vh] w-screen bg-hero3 bg-center bg-cover relative" id="hero">
-                <div className="absolute bottom-16 left-20 text-8xl font-extrabold">
+                <div className="absolute bottom-16 sm:left-20 text-6xl sm:text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             software at verglas.
@@ -17,13 +17,13 @@ export default function Products() {
                 </div>
             </div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-1/2">
-                    <div id="about" className="py-20 pb-0 grid grid-cols-2 gap-6">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
+                    <div id="about" className="py-20 pb-0 grid sm:grid-cols-2 gap-6">
                         <div className="flex justify-center items-center">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id diam sed risus tempor aliquet. Morbi non turpis sit amet lorem auctor efficitur. Ut hendrerit mollis nulla, id laoreet enim volutpat feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut id purus ac lorem tincidunt ornare.</p>
                         </div>
                         <div className="flex justify-start items-start">
-                            <span className="font-bold text-neutral-700 text-4xl text-end">engaging solutions to consolidate your teaching.</span>
+                            <span className="font-bold text-neutral-700 text-4xl text-end mb-4 sm:mb-0">engaging solutions to consolidate your teaching.</span>
                         </div>
                     </div>
                     <div id="about" className="pb-20">
@@ -34,7 +34,7 @@ export default function Products() {
             <div className="w-screen flex items-center justify-center bg-primary-600 text-primary-100"><div className="w-2/3">
                     <div id="impact" className="py-14 flex items-center flex-col">
                         <span className="font-extrabold text-4xl">verglas software.</span>
-                        <div className="flex flex-row mt-8 gap-12">
+                        <div className="grid sm:grid-cols-3 mt-8 gap-12">
                             <div className="flex flex-col items-center">
                                 <span className="text-6xl font-bold">2</span>
                                 <span className="text-xl font-semibold">developers</span>
@@ -51,8 +51,8 @@ export default function Products() {
                     </div>
             </div></div>
 
-            <div className="w-screen flex items-center justify-center"><div className="w-1/2">
-                    <div id="about" className="py-16 grid grid-cols-2 gap-12">
+            <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
+                    <div id="about" className="py-16 grid sm:grid-cols-2 gap-12">
                         <div>
                             <div className="flex justify-center items-center relative">
                                 <div className="w-full h-[15rem]">
