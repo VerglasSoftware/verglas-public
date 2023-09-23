@@ -84,7 +84,9 @@ export default function Index({ allPostsData }) {
                     <div id="committees" className=" py-20">
                         <div className="grid grid-cols-2 gap-12 mt-14 text-neutral-700">
                             <div>
-                                <button className="hover:bg-primary-100 w-full">
+                                <button className="hover:bg-primary-100 w-full" onClick={() => {
+                                    window.location.href = '/outreach'
+                                }}>
                                     <div className="w-full h-64 relative">
                                         <Image
                                         src={"/images/IMG_8406.jpg"}
@@ -97,12 +99,14 @@ export default function Index({ allPostsData }) {
                                         <p className="text-start my-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
                                         </p>
-                                        <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
+                                        <Link href="/outreach" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                                     </div>
                                 </button>
                             </div>
                             <div>
-                                <button className="hover:bg-primary-100 w-full">
+                                <button className="hover:bg-primary-100 w-full" onClick={() => {
+                                    window.location.href = '/products'
+                                }}>
                                     <div className="w-full h-64 relative">
                                         <Image
                                         src={"/images/DSC01868.jpeg"}
@@ -115,7 +119,7 @@ export default function Index({ allPostsData }) {
                                         <p className="text-start my-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis finibus pellentesque. Ut vestibulum tortor id libero finibus, a eleifend libero lobortis. Morbi vel lacus laoreet, dignissim diam eu, sagittis nibh. Ut dapibus a augue eu facilisis. Ut pulvinar quis nunc vitae elementum. Praesent volutpat lacus a nisl hendrerit suscipit. Nulla pulvinar ligula vel bibendum finibus.
                                         </p>
-                                        <Link href="" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
+                                        <Link href="/products" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Learn more...</Link>
                                     </div>
                                 </button>
                             </div>

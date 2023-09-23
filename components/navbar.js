@@ -18,6 +18,7 @@ export default function Navbar({ children, title }) {
 				<div className="flex items-center gap-10 h-full ml-12 text-primary-900 decoration-primary-900 decoration-2 underline-offset-[5px]">
 					<Link href="/outreach" className="hover:underline">Outreach</Link>
 					<Link href="/products" className="hover:underline">Software</Link>
+					<Link href="/people" className="hover:underline">People</Link>
 					<Link href="/press" className="hover:underline">News</Link>
 				</div>
 			</div>
