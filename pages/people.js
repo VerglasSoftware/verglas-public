@@ -124,23 +124,33 @@ export default function People() {
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/blank-f.png"}
+                                    src={"/images/people/ma.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
                                     height={175}
                                     />
-                                    <span className="mt-6 text-lg font-medium">TBA</span>
+                                    <span className="mt-6 text-lg font-medium">Matthew Hoey</span>
+                                    <div className="flex flex-row mt-4 gap-2">
+                                        <a href="https://www.linkedin.com/in/ma-t/">
+                                            <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
+                                        </a>
+                                    </div>
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/blank-f.png"}
+                                    src={"/images/people/samuel.jpg"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
                                     height={175}
                                     />
-                                   <span className="mt-6 text-lg font-medium">TBA</span>
+                                   <span className="mt-6 text-lg font-medium">Samuel Bhuiyan</span>
+                                   <div className="flex flex-row mt-4 gap-2">
+                                        <a href="https://www.linkedin.com/in/samuel-b-532826248/">
+                                            <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
+                                        </a>
+                                    </div>
                             </div>
                             <div className="flex flex-col">
                                     <Image
