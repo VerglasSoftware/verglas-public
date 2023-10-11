@@ -160,7 +160,7 @@ export default function People() {
                                     width={175}
                                     height={175}
                                     />
-                                    <span className="mt-6 text-lg font-medium">TBA</span>
+                                    <span className="mt-6 text-lg font-medium">Autumn Craig</span>
                             </div>
                         </div>
                     </div>
