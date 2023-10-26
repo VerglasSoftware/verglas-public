@@ -11,16 +11,14 @@ import { BsGithub, BsGlobeEuropeAfrica, BsLinkedin } from "react-icons/bs";
 export default function Post({ postData }) {
 	return (
 		<Layout title={postData.title}>
-            <div className="h-[25vh] w-screen bg-center bg-cover relative" id="hero" style={{
+            <div className="h-[25vh] w-screen bg-center bg-cover flex items-center justify-start mt-16" id="hero" style={{
                 backgroundImage: `url('${postData.image}')`
             }}>
-                <div className="sm:absolute sm:pt-0 pt-16 sm:bottom-10 left-20 text-5xl font-extrabold">
-                    <div className="bg-white px-4 py-3 pb-4 w-fit">
+                    <div className="bg-white px-4 py-3 pb-4 w-fit text-5xl font-extrabold ms-6 me-6">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             {postData.title}
                         </span>
                     </div>
-                </div>
             </div>
 
             <div className="w-screen flex items-center justify-center"><div className="w-3/4 sm:w-1/2">
