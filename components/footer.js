@@ -35,7 +35,7 @@ export default function Footer({ children, title }) {
 			</div>
 
 			<div className="flex flex-col sm:flex-row items-center text-primary-100 mb-4 gap-2 sm:gap-12 mt-2 sm:mt-0">
-				<span><strong>T</strong>: +44 (0) 28 9694 3069</span>
+				<span><strong>T</strong>: +44 (0) 28 9694 3669</span>
 				<span><strong>E</strong>: hello@verglas.io</span>
 			</div>
 
