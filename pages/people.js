@@ -9,8 +9,8 @@ import { BsGithub, BsGlobeEuropeAfrica, BsLinkedin } from "react-icons/bs";
 export default function People() {
 	return (
 		<Layout title={"People and policies"}>
-            <div className="h-[30vh] w-screen bg-hero4 bg-center bg-cover relative" id="hero">
-                <div className="absolute bottom-11 sm:bottom-10 sm:left-20 text-5xl sm:text-8xl font-extrabold">
+            <div className="h-[30vh] w-screen bg-hero4 bg-center bg-cover relative flex" id="hero">
+                <div className="ps-20 text-5xl sm:text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
                             key people and policies.
@@ -47,6 +47,7 @@ export default function People() {
                                     <span className="mt-6 text-lg font-medium">Daniel Adams</span>
                                     <span className="mt-1">Founder & Executive Director.</span>
                                     <span className="mt-1">Lead Event Coordinator for IglooCode.</span>
+                                    <span className="mt-1"><a href="tel:+442896943669,11" className="underline text-primary-500">028 9694 3669 ext. 11</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://linkedin.com/in/dandabs">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
@@ -69,10 +70,28 @@ export default function People() {
                                     />
                                     <span className="mt-6 text-lg font-medium">Jake Gillman</span>
                                     <span className="mt-1">Founder & Executive Director.</span>
+                                    <span className="mt-1"><a href="tel:+442896943669,12" className="underline text-primary-500">028 9694 3669 ext. 12</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://github.com/JakeyGilly">
                                             <BsGithub size={25} className="text-black/70 hover:text-black/50" />
                                         </a>
+                                    </div>
+                            </div>
+                            <div className="flex flex-col">
+                                    <Image
+                                    src={"/images/people/image-1.webp"}
+                                    style={{objectFit: "cover", objectPosition: ""}}
+                                    className="rounded-full aspect-square"
+                                    width={175}
+                                    height={175}
+                                    />
+                                    <span className="mt-6 text-lg font-medium">Bébhinn Bell</span>
+                                    <span className="mt-1">Secretary.</span>
+                                    <span className="mt-1"><a href="tel:+442896943669,13" className="underline text-primary-500">028 9694 3669 ext. 13</a></span>
+                                    <div className="flex flex-row mt-4 gap-2">
+                                        {/* <a href="https://github.com/JakeyGilly">
+                                            <BsGithub size={25} className="text-black/70 hover:text-black/50" />
+                                        </a> */}
                                     </div>
                             </div>
                             <div className="flex flex-col">
@@ -85,6 +104,7 @@ export default function People() {
                                     />
                                     <span className="mt-6 text-lg font-medium">Matthew Hoey</span>
                                     <span className="mt-1">Director.</span>
+                                    <span className="mt-1"><a href="tel:+442896943669,14" className="underline text-primary-500">028 9694 3669 ext. 14</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://www.linkedin.com/in/ma-t/">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
