@@ -6,13 +6,13 @@ export default function handler(req, res) {
     if (['+447858284939', '+447845171811'].includes(req.query.From)) {
         twiml.redirect({
             method: 'GET'
-        }, '/api/twiml/ext/09/gather');
+        }, 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/ext/09/gather');
     } else {
         const gather = twiml.gather({
             input: 'dtmf',
             timeout: 20,
             finishOnKey: '#',
-            action: '/api/twiml/ext/09/pin',
+            action: 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/ext/09/pin',
             method: 'GET'
         });
         gather.say({

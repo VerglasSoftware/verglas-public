@@ -36,11 +36,11 @@ export default function handler(req, res) {
                     ringTone: "uk",
                 });
                 dial.conference({
-                    statusCallback: '/api/twiml/conferenceStatus',
+                    statusCallback: 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/conferenceStatus',
                     statusCallbackMethod: 'GET',
                     statusCallbackEvent: 'join leave start end',
                     endConferenceOnExit: true,
-                    waitUrl: '/api/twiml/ringTone',
+                    waitUrl: 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/ringTone',
                     waitMethod: 'GET',
                     record: 'record-from-start'
                 }, ext.number);
@@ -88,7 +88,7 @@ export default function handler(req, res) {
     if (ext.type === 'service') {
         twiml.redirect({
             method: 'GET'
-        }, '/api/twiml/ext/' + req.query.Digits);
+        }, 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/ext/' + req.query.Digits);
 
         res.writeHead(200, { 'Content-Type': 'text/xml' });
         res.end(twiml.toString());

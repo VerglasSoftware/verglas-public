@@ -6,7 +6,7 @@ export default function handler(req, res) {
     if (req.query.Digits == "36690707") {
         twiml.redirect({
             method: 'GET'
-        }, '/api/twiml/ext/09/gather');
+        }, 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/ext/09/gather');
     }
 
     res.writeHead(200, { 'Content-Type': 'text/xml' });

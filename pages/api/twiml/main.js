@@ -8,7 +8,7 @@ export default function handler(req, res) {
         timeout: 20,
         numDigits: 2,
         finishOnKey: '#',
-        action: '/api/twiml/menu',
+        action: 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/menu',
         method: 'GET'
     });
     gather.say({

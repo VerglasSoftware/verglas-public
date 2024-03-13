@@ -18,7 +18,7 @@ export default function handler(req, res) {
                     to: req.query.FriendlyName,
                     from: "+442896943669",
                     url: 'https://f7a7-149-50-166-81.ngrok-free.app/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName,
-                    statusCallback: '/api/twiml/conferenceOutboundStatus',
+                    statusCallback: 'https://master.d3d0xgyfdqler4.amplifyapp.com/api/twiml/conferenceOutboundStatus',
                     statusCallbackMethod: 'GET',
                 });
         })
