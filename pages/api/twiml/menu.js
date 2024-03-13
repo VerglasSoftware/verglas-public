@@ -11,6 +11,15 @@ const fetch = require('node-fetch').default;
 export default function handler(req, res) {
     const twiml = new VoiceResponse();
 
+    if (!Object.keys(extensions).includes(req.query.Digits)) {
+        twiml.say({
+            language: 'en-UK',
+            voice: 'Google.en-GB-Neural2-B'
+        }, 'Sorry, that extension does not exist.');
+        res.writeHead(200, { 'Content-Type': 'text/xml' });
+        return res.end(twiml.toString());
+    }
+
     const ext = extensions[req.query.Digits];
 
     twiml.say({
