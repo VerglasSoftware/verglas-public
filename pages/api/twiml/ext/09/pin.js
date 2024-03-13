@@ -6,7 +6,7 @@ export default function handler(req, res) {
     if (req.query.Digits == "36690707") {
         twiml.redirect({
             method: 'GET'
-        }, 'https://verglas-public.vercel.app/api/twiml/ext/09/gather');
+        }, 'http://49.13.165.101:3000/api/twiml/ext/09/gather');
     }
 
     res.writeHead(200, { 'Content-Type': 'text/xml' });

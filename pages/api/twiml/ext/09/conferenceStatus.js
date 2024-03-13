@@ -17,8 +17,8 @@ export default function handler(req, res) {
                 client.calls.create({
                     to: req.query.Cto.replace("0", "+44"),
                     from: "+442896943669",
-                    url: 'https://verglas-public.vercel.app/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName,
-                    statusCallback: 'https://verglas-public.vercel.app/api/twiml/conferenceOutboundStatus',
+                    url: 'http://49.13.165.101:3000/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName,
+                    statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceOutboundStatus',
                     statusCallbackMethod: 'GET',
                 });
         })

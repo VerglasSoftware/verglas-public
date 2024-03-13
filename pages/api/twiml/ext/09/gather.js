@@ -7,7 +7,7 @@ export default function handler(req, res) {
         input: 'dtmf',
         timeout: 20,
         finishOnKey: '#',
-        action: 'https://verglas-public.vercel.app/api/twiml/ext/09/dial',
+        action: 'http://49.13.165.101:3000/api/twiml/ext/09/dial',
         method: 'GET'
     });
     gather.say({

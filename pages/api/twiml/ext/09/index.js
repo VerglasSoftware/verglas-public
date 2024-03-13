@@ -6,13 +6,13 @@ export default function handler(req, res) {
     if (['+447858284939', '+447845171811'].includes(req.query.From)) {
         twiml.redirect({
             method: 'GET'
-        }, 'https://verglas-public.vercel.app/api/twiml/ext/09/gather');
+        }, 'http://49.13.165.101:3000/api/twiml/ext/09/gather');
     } else {
         const gather = twiml.gather({
             input: 'dtmf',
             timeout: 20,
             finishOnKey: '#',
-            action: 'https://verglas-public.vercel.app/api/twiml/ext/09/pin',
+            action: 'http://49.13.165.101:3000/api/twiml/ext/09/pin',
             method: 'GET'
         });
         gather.say({

@@ -9,11 +9,11 @@ export default function handler(req, res) {
         ringTone: "uk",
     });
     dial.conference({
-        statusCallback: 'https://verglas-public.vercel.app/api/twiml/ext/09/conferenceStatus?Cto=' + req.query.Digits,
+        statusCallback: 'http://49.13.165.101:3000/api/twiml/ext/09/conferenceStatus?Cto=' + req.query.Digits,
         statusCallbackMethod: 'GET',
         statusCallbackEvent: 'join leave start end',
         endConferenceOnExit: true,
-        waitUrl: 'https://verglas-public.vercel.app/api/twiml/ringTone',
+        waitUrl: 'http://49.13.165.101:3000/api/twiml/ringTone',
         waitMethod: 'GET',
         record: 'record-from-start'
     }, req.query.From);

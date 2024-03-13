@@ -36,11 +36,11 @@ export default function handler(req, res) {
                     ringTone: "uk",
                 });
                 dial.conference({
-                    statusCallback: 'https://verglas-public.vercel.app/api/twiml/conferenceStatus',
+                    statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceStatus',
                     statusCallbackMethod: 'GET',
                     statusCallbackEvent: 'join leave start end',
                     endConferenceOnExit: true,
-                    waitUrl: 'https://verglas-public.vercel.app/api/twiml/ringTone',
+                    waitUrl: 'http://49.13.165.101:3000/api/twiml/ringTone',
                     waitMethod: 'GET',
                     record: 'record-from-start'
                 }, ext.number);
@@ -88,7 +88,7 @@ export default function handler(req, res) {
     if (ext.type === 'service') {
         twiml.redirect({
             method: 'GET'
-        }, 'https://verglas-public.vercel.app/api/twiml/ext/' + req.query.Digits);
+        }, 'http://49.13.165.101:3000/api/twiml/ext/' + req.query.Digits);
 
         res.writeHead(200, { 'Content-Type': 'text/xml' });
         res.end(twiml.toString());

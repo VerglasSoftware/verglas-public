@@ -8,7 +8,7 @@ export default function handler(req, res) {
         timeout: 20,
         numDigits: 2,
         finishOnKey: '#',
-        action: 'https://verglas-public.vercel.app/api/twiml/menu',
+        action: 'http://49.13.165.101:3000/api/twiml/menu',
         method: 'GET'
     });
     gather.say({
