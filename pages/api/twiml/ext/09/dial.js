@@ -4,11 +4,23 @@ var { extensions: extensions } = require('../../extensions');
 
 export default function handler(req, res) {
     const twiml = new VoiceResponse();
-    
-    twiml.dial({
+
+    const dial = twiml.dial({
         ringTone: "uk",
-        timeout: 30,
-    }, req.query.Digits);
+    });
+    dial.conference({
+        statusCallback: '/api/twiml/ext/09/conferenceStatus?Cto=' + req.query.Digits,
+        statusCallbackMethod: 'GET',
+        statusCallbackEvent: 'join leave start end',
+        endConferenceOnExit: true,
+        waitUrl: '/api/twiml/ringTone',
+        waitMethod: 'GET'
+    }, req.query.From);
+    
+    // twiml.dial({
+    //     ringTone: "uk",
+    //     timeout: 30,
+    // }, req.query.Digits);
     
     fetch(process.env.WEBHOOK, {
         method: "POST",
