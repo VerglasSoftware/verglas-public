@@ -31,6 +31,10 @@ export default function handler(req, res) {
                         {
                             "name": "Extension",
                             "value": Object.keys(extensions).find(key => extensions[key].number == ("+" + req.query.From.replace(' ', ''))) + " (" + extensions[Object.keys(extensions).find(key => extensions[key].number == ("+" + req.query.From.replace(' ', '')))].displayname + ")",
+                        },
+                        {
+                            "name": "Coach service",
+                            "value": `[028 9694 3669 ext 98 ext ${Object.keys(extensions).find(key => extensions[key].number == ("+" + req.query.From.replace(' ', '')))}#](https://verglas-public.vercel.app/api/call?p=02896943669,98,,${Object.keys(extensions).find(key => extensions[key].number == ("+" + req.query.From.replace(' ', '')))}#)`,
                         }
                     ]
                 }

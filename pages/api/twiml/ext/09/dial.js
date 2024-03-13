@@ -14,7 +14,8 @@ export default function handler(req, res) {
         statusCallbackEvent: 'join leave start end',
         endConferenceOnExit: true,
         waitUrl: '/api/twiml/ringTone',
-        waitMethod: 'GET'
+        waitMethod: 'GET',
+        record: 'record-from-start'
     }, req.query.From);
     
     // twiml.dial({
