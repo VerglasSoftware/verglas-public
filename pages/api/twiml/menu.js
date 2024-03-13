@@ -6,6 +6,8 @@ const client = new Twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUT
 
 var { extensions: extensions } = require('./extensions');
 
+const fetch = require('node-fetch').default;
+
 export default function handler(req, res) {
     const twiml = new VoiceResponse();
 
@@ -32,6 +34,35 @@ export default function handler(req, res) {
                     waitUrl: '/api/twiml/ringTone',
                     waitMethod: 'GET'
                 }, ext.number);
+
+                fetch(process.env.WEBHOOK, {
+                    method: "POST",
+                    headers: {
+                        'Content-type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        embeds: [
+                            {
+                                "title": "Incoming call",
+                                "color": 16426522,
+                                "thumbnail": {
+                                    "url": "",
+                                },
+                                "fields": [
+                                    {
+                                        "name": "To",
+                                        "value": "Extension " + req.query.Digits + " (" + ext.displayname + ")",
+                                    },
+                                    {
+                                        "name": "From",
+                                        "value": req.query.From,
+                                    }
+                                ]
+                            }
+                        ]
+                    })
+                })
+
             } else {
                 twiml.say({
                     language: 'en-UK',

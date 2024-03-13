@@ -4,6 +4,8 @@ const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 const client = new Twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 
+var { extensions: extensions } = require('./extensions');
+
 export default function handler(req, res) {
     const twiml = new VoiceResponse();
 
@@ -19,6 +21,32 @@ export default function handler(req, res) {
                     statusCallback: '/api/twiml/conferenceOutboundStatus',
                     statusCallbackMethod: 'GET',
                 });
+        })
+    }
+
+    if (req.query.StatusCallbackEvent === 'conference-end') {
+        fetch(process.env.WEBHOOK, {
+            method: "POST",
+            headers: {
+                'Content-type': 'application/json'
+            },
+            body: JSON.stringify({
+                embeds: [
+                    {
+                        "title": "Line freed",
+                        "color": 4437377,
+                        "thumbnail": {
+                            "url": "",
+                        },
+                        "fields": [
+                            {
+                                "name": "Extension",
+                                "value": Object.keys(extensions).find(key => extensions[key].number == req.query.FriendlyName) + " (" + extensions[Object.keys(extensions).find(key => extensions[key].number == req.query.FriendlyName)].displayname + ")",
+                            }
+                        ]
+                    }
+                ]
+            })
         })
     }
 

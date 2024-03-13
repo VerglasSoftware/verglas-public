@@ -3,7 +3,7 @@ const VoiceResponse = require('twilio').twiml.VoiceResponse;
 export default function handler(req, res) {
     const twiml = new VoiceResponse();
 
-    if ([ '+447845171811'].includes(req.query.From)) {
+    if (['+447858284939', '+447845171811'].includes(req.query.From)) {
         twiml.redirect({
             method: 'GET'
         }, '/api/twiml/ext/09/gather');
