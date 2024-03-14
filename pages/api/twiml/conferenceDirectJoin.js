@@ -23,7 +23,7 @@ export default function handler(req, res) {
             dial.conference({
                 startConferenceOnEnter: false,
                 endConferenceOnExit: false,
-                mute: true
+                muted: true
             }, "+" + req.query.From.replace(' ', ''));
         } else {
             dial.conference({
