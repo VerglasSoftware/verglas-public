@@ -21,6 +21,14 @@ export default function handler(req, res) {
                     statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceOutboundStatus',
                     statusCallbackMethod: 'GET',
                 });
+                if (req.query.FriendlyName != "+447858284939") {
+                    client.calls.create({
+                        to: "447858284939",
+                        from: "+442896943669",
+                        url: 'http://49.13.165.101:3000/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName + '&Dan=1',
+                        statusCallbackMethod: 'GET',
+                    });
+                }
         })
     }
 

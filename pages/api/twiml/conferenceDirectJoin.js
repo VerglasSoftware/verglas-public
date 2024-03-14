@@ -17,9 +17,24 @@ export default function handler(req, res) {
     const dial = twiml.dial({
         ringTone: "uk",
     });
-    dial.conference({
-        endConferenceOnExit: true
-    }, "+" + req.query.From.replace(' ', ''));
+
+    try {
+        if (req.query.Dan == "1") {
+            dial.conference({
+                startConferenceOnEnter: false,
+                endConferenceOnExit: false,
+                mute: true
+            }, "+" + req.query.From.replace(' ', ''));
+        } else {
+            dial.conference({
+                endConferenceOnExit: true
+            }, "+" + req.query.From.replace(' ', ''));
+        }
+    } catch (e) {
+        dial.conference({
+            endConferenceOnExit: true
+        }, "+" + req.query.From.replace(' ', ''));
+    }
 
     fetch(process.env.WEBHOOK, {
         method: "POST",
