@@ -17,7 +17,7 @@ export default function handler(req, res) {
                 client.calls.create({
                     to: req.query.FriendlyName,
                     from: "+442896943669",
-                    url: 'http://49.13.165.101:3000/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName,
+                    url: 'http://49.13.165.101:3000/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName + '&SpecialExt=' + req.query.SpecialExt,
                     statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceOutboundStatus',
                     statusCallbackMethod: 'GET',
                 });

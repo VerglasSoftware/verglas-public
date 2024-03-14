@@ -7,6 +7,13 @@ var { extensions: extensions } = require('./extensions');
 export default function handler(req, res) {
     const twiml = new VoiceResponse();
 
+    if (req.query.SpecialExt == "01") {
+        twiml.say({
+            language: 'en-UK',
+            voice: 'Google.en-GB-Neural2-B'
+        }, 'This call is regarding a new school enquiring about IglooCode. Connecting you now.');
+    }
+
     const dial = twiml.dial({
         ringTone: "uk",
     });

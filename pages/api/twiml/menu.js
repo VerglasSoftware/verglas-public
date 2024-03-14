@@ -36,7 +36,7 @@ export default function handler(req, res) {
                     ringTone: "uk",
                 });
                 dial.conference({
-                    statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceStatus',
+                    statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceStatus?SpecialExt=' + req.query.Digits,
                     statusCallbackMethod: 'GET',
                     statusCallbackEvent: 'join leave start end',
                     endConferenceOnExit: true,
