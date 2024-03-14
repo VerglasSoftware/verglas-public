@@ -23,7 +23,7 @@ module.exports.extensions = {
         type: 'forward',
         number: '+447387852336'
     },
-    "20": {
+    "16": {
         name: "Temporary",
         display: "Test number",
         type: 'forward',
