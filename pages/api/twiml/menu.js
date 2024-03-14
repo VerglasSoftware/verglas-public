@@ -40,6 +40,7 @@ export default function handler(req, res) {
                     statusCallbackMethod: 'GET',
                     statusCallbackEvent: 'join leave start end',
                     endConferenceOnExit: true,
+                    startConferenceOnEnter: false,
                     waitUrl: 'http://49.13.165.101:3000/api/twiml/ringTone',
                     waitMethod: 'GET',
                     record: 'record-from-start'
