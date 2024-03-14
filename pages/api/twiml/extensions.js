@@ -23,6 +23,12 @@ module.exports.extensions = {
         type: 'forward',
         number: '+447387852336'
     },
+    "20": {
+        name: "Temporary",
+        display: "Test number",
+        type: 'forward',
+        number: '+447484135550'
+    },
     "01": {
         name: 'Igloo Code enquiries',
         displayname: 'IglooCode new school enquiries',
