@@ -13,7 +13,7 @@ export default function handler(req, res) {
 
     if (req.query.StatusCallbackEvent === 'participant-join' && client.conferences.get(req.query.FriendlyName).participants.length == 1 && req.query.FriendlyName != req.query.From) {
         client.calls.list().then(calls => {
-            if (calls.filter(c=>c.to == req.query.FriendlyName && ['in-progress', 'ringing'].includes(c.status)).length == 0)
+            if (calls.filter(c=>c.to == req.query.FriendlyName && ['in-progress', 'ringing'].includes(c.status)).length == 0) {
                 client.calls.create({
                     to: req.query.FriendlyName,
                     from: "+442896943669",
@@ -21,14 +21,16 @@ export default function handler(req, res) {
                     statusCallback: 'http://49.13.165.101:3000/api/twiml/conferenceOutboundStatus',
                     statusCallbackMethod: 'GET',
                 });
+
                 if (req.query.FriendlyName != "+447858284939") {
                     client.calls.create({
-                        to: "447858284939",
-                        from: "+442896943669",
+                        to: "+447858284939",
+                        from: "+447883288940",
                         url: 'http://49.13.165.101:3000/api/twiml/conferenceDirectJoin?From=' + req.query.FriendlyName + '&Dan=1',
                         statusCallbackMethod: 'GET',
                     });
                 }
+            }
         })
     }
 
