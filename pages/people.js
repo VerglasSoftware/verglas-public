@@ -9,7 +9,7 @@ import { BsGithub, BsGlobeEuropeAfrica, BsLinkedin } from "react-icons/bs";
 export default function People() {
 	return (
 		<Layout title={"People and policies"}>
-            <div className="h-[30vh] w-screen bg-hero4 bg-center bg-cover relative flex" id="hero">
+            <div className="h-[30vh] w-screen bg-hero4 bg-center bg-cover relative flex items-center" id="hero">
                 <div className="ps-20 text-5xl sm:text-8xl font-extrabold">
                     <div className="bg-white px-4 py-3 pb-4 w-fit">
                         <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
@@ -72,14 +72,19 @@ export default function People() {
                                     <span className="mt-1">Founder & Executive Director.</span>
                                     <span className="mt-1"><a href="tel:+442896943669,12" className="underline text-primary-500">028 9694 3669 ext. 12</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
+                                        <a href="https://uk.linkedin.com/in/jake-gillman-265608302">
+                                            <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
+                                        </a>
                                         <a href="https://github.com/JakeyGilly">
                                             <BsGithub size={25} className="text-black/70 hover:text-black/50" />
                                         </a>
+                                        
+                                        
                                     </div>
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/image-1.webp"}
+                                    src={"/images/people/bev.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
@@ -96,7 +101,7 @@ export default function People() {
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/ma.png"}
+                                    src={"/images/people/ma2.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
@@ -114,22 +119,6 @@ export default function People() {
                                         </a>
                                     </div>
                             </div>
-                            <div className="flex flex-col">
-                                    <Image
-                                    src={"/images/people/axel.png"}
-                                    style={{objectFit: "cover", objectPosition: ""}}
-                                    className="rounded-full aspect-square"
-                                    width={175}
-                                    height={175}
-                                    />
-                                    <span className="mt-6 text-lg font-medium">Alex Graham</span>
-                                    <span className="mt-1">Non-Executive Board Member.</span>
-                                    <div className="flex flex-row mt-4 gap-2">
-                                        {/* <a href="https://github.com/JakeyGilly">
-                                            <BsGithub size={25} className="text-black/70 hover:text-black/50" />
-                                        </a> */}
-                                    </div>
-                            </div>
                         </div>
                     </div>
             </div></div>
@@ -137,19 +126,9 @@ export default function People() {
             <div className="w-screen flex items-center justify-center"><div className="w-3/4">
                     <div id="about" className="pb-20 mt-4">
                         <div className="flex justify-start items-start">
-                            <span className="font-medium text-neutral-700 text-4xl text-start">outreach partners.</span>
+                            <span className="font-medium text-neutral-700 text-4xl text-start">board advisors.</span>
                         </div>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
-                            {/* <div className="flex flex-col">
-                                    <Image
-                                    src={"/images/people/dan.jpg"}
-                                    style={{objectFit: "cover", objectPosition: ""}}
-                                    className="rounded-full aspect-square"
-                                    width={175}
-                                    height={175}
-                                    />
-                                    <span className="mt-6 text-lg font-medium">Daniel Adams</span>
-                            </div> */}
                             <div className="flex flex-col">
                                     <Image
                                     src={"/images/people/aideen.jpg"}
@@ -164,6 +143,22 @@ export default function People() {
                                         <a href="https://www.linkedin.com/in/aideen-m-431007263/">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
                                         </a>
+                                    </div>
+                            </div>
+                            <div className="flex flex-col">
+                                    <Image
+                                    src={"/images/people/axel.png"}
+                                    style={{objectFit: "cover", objectPosition: ""}}
+                                    className="rounded-full aspect-square"
+                                    width={175}
+                                    height={175}
+                                    />
+                                    <span className="mt-6 text-lg font-medium">Alex Graham</span>
+                                    <span className="mt-1"></span>
+                                    <div className="flex flex-row mt-4 gap-2">
+                                        {/* <a href="https://github.com/JakeyGilly">
+                                            <BsGithub size={25} className="text-black/70 hover:text-black/50" />
+                                        </a> */}
                                     </div>
                             </div>
                         </div>
