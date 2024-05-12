@@ -41,7 +41,7 @@ export default function Products() {
                                 <span className="text-xl font-semibold">developers</span>
                             </div>
                             <div className="flex flex-col items-center">
-                                <span className="text-6xl font-bold">£1,370</span>
+                                <span className="text-6xl font-bold">£2,470</span>
                                 <span className="text-xl font-semibold">invested by partners</span>
                             </div>
                             <div className="flex flex-col items-center">

@@ -37,15 +37,15 @@ export default function Outreach() {
                         <span className="font-extrabold text-4xl">verglas events.</span>
                         <div className="grid sm:grid-cols-2 md:grid-cols-4 mt-8 gap-12">
                             <div className="flex flex-col items-center">
-                                <span className="text-6xl font-bold">16</span>
+                                <span className="text-6xl font-bold">21</span>
                                 <span className="text-xl font-semibold">secondary schools</span>
                             </div>
                             <div className="flex flex-col items-center">
-                                <span className="text-6xl font-bold">100</span>
+                                <span className="text-6xl font-bold">320</span>
                                 <span className="text-xl font-semibold">students reached</span>
                             </div>
                             <div className="flex flex-col items-center">
-                                <span className="text-6xl font-bold">27</span>
+                                <span className="text-6xl font-bold">59</span>
                                 <span className="text-xl font-semibold">volunteering roles</span>
                             </div>
                             <div className="flex flex-col items-center">
