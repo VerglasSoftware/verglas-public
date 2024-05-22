@@ -169,11 +169,11 @@ export default function People() {
                     <div id="about" className="py-20 grid md:grid-cols-2 gap-12">
                         <div className="flex justify-start items-start flex-col">
                             <span className="font-bold text-neutral-700 text-4xl md:text-end mb-4">company policies & legal documents.</span>
-                            <p className="md:text-end">Document filings from incorporation are available on <a href="https://find-and-update.company-information.service.gov.uk/company/14838037/filing-history" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Companies House</a> (no. 14838037).</p>
+                            <p className="md:text-end">Document filings from incorporation are available on <a href="https://find-and-update.company-information.service.gov.uk/company/NI716105/filing-history" className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]">Companies House</a> (no. NI716105).</p>
                         </div>
                         <div className="flex justify-start items-start">
                             <ul>
-                                <li className="mb-5"><span className="font-semibold text-lg">Verglas Software Limited</span><br /><a href="/docs/model_articles_private_ltd_by_shares_after28April2013.pdf" className="text-primary-700 hover:underline text-lg">&bull; Articles of Association</a></li>
+                                <li className="mb-5"><span className="font-semibold text-lg">Verglas (NI) Limited</span><br /><a href="/docs/articles_verglas_ni_incorp.pdf" className="text-primary-700 hover:underline text-lg">&bull; Articles of Association</a></li>
                                 <li><span className="font-semibold text-lg">Outreach Committee</span><br /><a href="/docs/reference_terms-outreach-v1.0.pdf" className="text-primary-700 hover:underline text-lg">&bull; Terms of Reference</a></li>
                             </ul>
                         </div>

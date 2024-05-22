@@ -8,7 +8,7 @@ image: '/images/DSC01750.jpeg'
 
 Last updated 09/01/2024
 
-This privacy notice for Verglas Software Limited (doing business as Verglas) ('**we**', '**us**', or '**our**'), describes how and why we might collect, store, use, and/or share ('**process**') your information when you use our services ('**Services**'), such as when you:
+This privacy notice for Verglas (NI) Limited (doing business as Verglas) ('**we**', '**us**', or '**our**'), describes how and why we might collect, store, use, and/or share ('**process**') your information when you use our services ('**Services**'), such as when you:
 
 - Visit our website at educatr.app, or any website of ours that links to this privacy notice
 - Download and use our mobile application (Educatr, Educatr Launchpad), or any other application of ours that links to this privacy notice
@@ -189,7 +189,7 @@ We may update this privacy notice from time to time. The updated version will be
 
 If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO), Daniel Adams, by email at dana@verglas.io, by phone at 07466023922, or contact us by post at:
 
-Verglas Software Limited
+Verglas (NI) Limited
 Daniel Adams
 103 Lisnamurrikin Road
 Broughshane
@@ -205,7 +205,7 @@ Northern Ireland
 
 If you have any further questions or comments, you may also contact us by post at the following corporate address:
 
-Verglas Software Limited
+Verglas (NI) Limited
 Unit 82a James Carter Road
 Mildenhall, Suffolk IP28 7DE
 England
