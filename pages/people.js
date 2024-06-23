@@ -33,21 +33,21 @@ export default function People() {
             <div className="w-screen flex items-center justify-center"><div className="w-3/4">
                     <div id="about" className="py-20 pb-14 mt-4">
                         <div className="flex justify-start items-start">
-                            <span className="font-medium text-neutral-700 text-4xl text-start">board of directors.</span>
+                            <span className="font-medium text-neutral-700 text-4xl text-start">executive board.</span>
                         </div>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/dan.jpg"}
+                                    src={"/images/people/dan2.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
                                     height={175}
                                     />
                                     <span className="mt-6 text-lg font-medium">Daniel Adams</span>
-                                    <span className="mt-1">Founder & Executive Director.</span>
+                                    <span className="mt-1">Co-founder & Developer.</span>
                                     <span className="mt-1">Lead Event Coordinator for IglooCode.</span>
-                                    <span className="mt-1"><a href="tel:+442896943669,11" className="underline text-primary-500">028 9694 3669 ext. 11</a></span>
+                                    <span className="mt-1"><a href="tel:+442896943669,110" className="underline text-primary-500">028 9694 3669 ext. 110</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://linkedin.com/in/dandabs">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
@@ -62,15 +62,15 @@ export default function People() {
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/jake.jpg"}
+                                    src={"/images/people/jak2.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
                                     height={175}
                                     />
                                     <span className="mt-6 text-lg font-medium">Jake Gillman</span>
-                                    <span className="mt-1">Founder & Executive Director.</span>
-                                    <span className="mt-1"><a href="tel:+442896943669,12" className="underline text-primary-500">028 9694 3669 ext. 12</a></span>
+                                    <span className="mt-1">Co-founder & Developer.</span>
+                                    <span className="mt-1"><a href="tel:+442896943669,113" className="underline text-primary-500">028 9694 3669 ext. 113</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://uk.linkedin.com/in/jake-gillman-265608302">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
@@ -84,7 +84,7 @@ export default function People() {
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/bev.png"}
+                                    src={"/images/people/bev2.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
@@ -92,24 +92,24 @@ export default function People() {
                                     />
                                     <span className="mt-6 text-lg font-medium">Bébhinn Bell</span>
                                     <span className="mt-1">Secretary.</span>
-                                    <span className="mt-1"><a href="tel:+442896943669,13" className="underline text-primary-500">028 9694 3669 ext. 13</a></span>
+                                    <span className="mt-1"><a href="tel:+442896943669,114" className="underline text-primary-500">028 9694 3669 ext. 114</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
-                                        {/* <a href="https://github.com/JakeyGilly">
-                                            <BsGithub size={25} className="text-black/70 hover:text-black/50" />
-                                        </a> */}
+                                        <a href="https://www.linkedin.com/in/bebhinn-bell-84a28a2b7/">
+                                            <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
+                                        </a>
                                     </div>
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/ma2.png"}
+                                    src={"/images/people/ma3.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
                                     height={175}
                                     />
                                     <span className="mt-6 text-lg font-medium">Matthew Hoey</span>
-                                    <span className="mt-1">Director.</span>
-                                    <span className="mt-1"><a href="tel:+442896943669,14" className="underline text-primary-500">028 9694 3669 ext. 14</a></span>
+                                    <span className="mt-1">Event Photographer.</span>
+                                    <span className="mt-1"><a href="tel:+442896943669,115" className="underline text-primary-500">028 9694 3669 ext. 115</a></span>
                                     <div className="flex flex-row mt-4 gap-2">
                                         <a href="https://www.linkedin.com/in/ma-t/">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
@@ -119,6 +119,22 @@ export default function People() {
                                         </a>
                                     </div>
                             </div>
+                            <div className="flex flex-col">
+                                    <Image
+                                    src={"/images/people/axel2.png"}
+                                    style={{objectFit: "cover", objectPosition: ""}}
+                                    className="rounded-full aspect-square"
+                                    width={175}
+                                    height={175}
+                                    />
+                                    <span className="mt-6 text-lg font-medium">Alex Graham</span>
+                                    <span className="mt-1"></span>
+                                    <div className="flex flex-row mt-4 gap-2">
+                                        {/* <a href="https://github.com/JakeyGilly">
+                                            <BsGithub size={25} className="text-black/70 hover:text-black/50" />
+                                        </a> */}
+                                    </div>
+                            </div>
                         </div>
                     </div>
             </div></div>
@@ -126,7 +142,7 @@ export default function People() {
             <div className="w-screen flex items-center justify-center"><div className="w-3/4">
                     <div id="about" className="pb-20 mt-4">
                         <div className="flex justify-start items-start">
-                            <span className="font-medium text-neutral-700 text-4xl text-start">board advisors.</span>
+                            <span className="font-medium text-neutral-700 text-4xl text-start">igloocode team.</span>
                         </div>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
                             <div className="flex flex-col">
@@ -143,22 +159,6 @@ export default function People() {
                                         <a href="https://www.linkedin.com/in/aideen-m-431007263/">
                                             <BsLinkedin size={25} className="text-black/70 hover:text-black/50" />
                                         </a>
-                                    </div>
-                            </div>
-                            <div className="flex flex-col">
-                                    <Image
-                                    src={"/images/people/axel.png"}
-                                    style={{objectFit: "cover", objectPosition: ""}}
-                                    className="rounded-full aspect-square"
-                                    width={175}
-                                    height={175}
-                                    />
-                                    <span className="mt-6 text-lg font-medium">Alex Graham</span>
-                                    <span className="mt-1"></span>
-                                    <div className="flex flex-row mt-4 gap-2">
-                                        {/* <a href="https://github.com/JakeyGilly">
-                                            <BsGithub size={25} className="text-black/70 hover:text-black/50" />
-                                        </a> */}
                                     </div>
                             </div>
                         </div>
