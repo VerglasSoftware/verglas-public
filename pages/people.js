@@ -38,7 +38,7 @@ export default function People() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/dan2.png"}
+                                    src={"/images/people/vgdan.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
@@ -84,7 +84,7 @@ export default function People() {
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/bev2.png"}
+                                    src={"/images/people/vgbev.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
@@ -101,7 +101,7 @@ export default function People() {
                             </div>
                             <div className="flex flex-col">
                                     <Image
-                                    src={"/images/people/ma3.png"}
+                                    src={"/images/people/vgma.png"}
                                     style={{objectFit: "cover", objectPosition: ""}}
                                     className="rounded-full aspect-square"
                                     width={175}
