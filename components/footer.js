@@ -41,7 +41,7 @@ export default function Footer({ children, title }) {
 
 			<div className="text-primary-400/50 text-xs mt-4 text-center">
 				<p className="mb-1">
-					Verglas (NI) Limited is a company registered in Northern Ireland (no. NI716105). Registered office: Office 218 Unit 6, 100 Lisburn Road, Belfast, BT9 6AG.
+					Verglas (NI) Limited is a company registered in Northern Ireland (no. NI716105). Registered office: Office 218, 92 Castle Street, Belfast, BT1 1HE.
 				</p>
 				<p className="mb-1">
 					Verglas, IglooCode™ and/or Educatr™ are not associated with Slemish College or Strathearn School, and any publications from us do not represent their views.
