@@ -62,7 +62,7 @@ export default function People() {
                     href="tel:+442896943669,112"
                     className="underline text-primary-500"
                   >
-                    028 9694 3669 ext. 112
+                    028 9694 3669 ext. 101
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-2">
@@ -100,7 +100,7 @@ export default function People() {
                     href="tel:+442896943669,114"
                     className="underline text-primary-500"
                   >
-                    028 9694 3669 ext. 114
+                    028 9694 3669 ext. 102
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-2">
@@ -138,11 +138,11 @@ export default function People() {
                     href="tel:+442896943669,114"
                     className="underline text-primary-500"
                   >
-                    028 9694 3669 ext. 114
+                    028 9694 3669 ext. 103
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-2">
-                  <a href="https://www.linkedin.com/in/bebhinn-bell-84a28a2b7/">
+                  <a href="https://www.linkedin.com/in/alex-graham-a37239335/">
                     <BsLinkedin
                       size={25}
                       className="text-black/70 hover:text-black/50"
@@ -164,7 +164,7 @@ export default function People() {
                     href="tel:+442896943669,114"
                     className="underline text-primary-500"
                   >
-                    028 9694 3669 ext. 115
+                    028 9694 3669 ext. 104
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-2">
@@ -185,14 +185,6 @@ export default function People() {
                 />
                 <span className="mt-6 text-lg font-medium">Jake Gillman</span>
                 <span className="mt-1">Director.</span>
-                <span className="mt-1">
-                  <a
-                    href="tel:+442896943669,113"
-                    className="underline text-primary-500"
-                  >
-                    028 9694 3669 ext. 113
-                  </a>
-                </span>
                 <div className="flex flex-row mt-4 gap-2">
                   <a href="https://uk.linkedin.com/in/jake-gillman-265608302">
                     <BsLinkedin
