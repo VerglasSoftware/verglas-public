@@ -3,27 +3,68 @@
 @import "tailwindcss/utilities";
 
 body {
-	font-family: "Instrument Sans", "Inter", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	letter-spacing: 0.1px;
-
-	margin: 0 auto;
-
-	min-height: 100vh;
-	position: relative;
-
-	overflow-x: hidden;
+  font-family: "Instrument Sans", "Inter", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.1px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
 }
 
 html {
-	font-feature-settings: "cv03", "cv04", "cv11";
+  font-feature-settings: "cv03", "cv04", "cv11";
 }
 
 :root {
-	font-family: "Inter", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-	:root {
-		font-family: "Inter var", sans-serif;
-	}
+  font-family: "Inter", sans-serif;
 }
 
+.prose {
+  max-width: none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.prose a {
+  color: #7465e0;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #5a4fd1;
+}
+
+.prose hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
