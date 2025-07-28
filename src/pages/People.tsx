@@ -42,8 +42,8 @@ export default function People() {
       <div className="w-screen flex items-center justify-center bg-white">
         <div className="w-3/4">
           <div id="about" className="py-28 pb-20 mt-4">
-            <div className="flex justify-center items-center">
-              <span className="font-medium text-neutral-700 text-4xl text-center mb-12">
+            <div className="flex justify-start items-center">
+              <span className="font-medium text-neutral-700 text-4xl text-left mb-12">
                 the board of directors.
               </span>
             </div>
