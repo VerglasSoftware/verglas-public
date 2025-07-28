@@ -55,7 +55,7 @@ export default function People() {
                 />
                 <span className="mt-6 text-lg font-medium">Dan Adams</span>
                 <span className="mt-1">
-                  Founder. Chief Executive Officer. Chief Financial Officer.
+                  Chief Executive Officer. Founder.
                 </span>
                 <span className="mt-1">
                   <a
@@ -172,7 +172,7 @@ export default function People() {
                   className="rounded-full aspect-square w-[175px] h-[175px] object-cover"
                 />
                 <span className="mt-6 text-lg font-medium">Jake Gillman</span>
-                <span className="mt-1">Co-founder & Developer.</span>
+                <span className="mt-1">Director.</span>
                 <span className="mt-1">
                   <a
                     href="tel:+442896943669,113"
@@ -204,7 +204,7 @@ export default function People() {
                   className="rounded-full aspect-square w-[175px] h-[175px] object-cover"
                 />
                 <span className="mt-6 text-lg font-medium">Matthew Hoey</span>
-                <span className="mt-1">Event Photographer.</span>
+                <span className="mt-1">Director.</span>
                 <div className="flex flex-row mt-4 gap-2">
                   <a href="https://www.linkedin.com/in/matthew-hoey-b31ba4302/">
                     <BsLinkedin
