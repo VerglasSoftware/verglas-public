@@ -161,7 +161,7 @@ export default function Home() {
       <div className="flex-shrink-0">
         <div className="w-28 h-28 relative">
           <img
-            src={getImagePath("images/credit-logo.png")}
+            src={getImagePath("images/partnersandschools/credit-logo.png")}
             alt="Partner"
             className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
@@ -170,7 +170,7 @@ export default function Home() {
       <div className="flex-shrink-0">
         <div className="w-56 h-28 relative">
           <img
-            src={getImagePath("images/LIT-footer-logo.png.avif")}
+            src={getImagePath("images/partnersandschools/LIT-footer-logo.png.avif")}
             alt="Liberty IT"
             className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
@@ -179,8 +179,62 @@ export default function Home() {
       <div className="flex-shrink-0">
         <div className="w-56 h-28 relative">
           <img
-            src={getImagePath("images/kainos_transparent-2.webp")}
+            src={getImagePath("images/partnersandschools/kainos_transparent-2.webp")}
             alt="Kainos"
+            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+      <div className="flex-shrink-0">
+        <div className="w-40 h-28 relative">
+          <img
+            src={getImagePath("images/partnersandschools/New-New-Bridge-Logo-Final-no-background-1024x1024.png")}
+            alt="Bridge Integrated College"
+            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+      <div className="flex-shrink-0">
+        <div className="w-28 h-28 relative">
+          <img
+            src={getImagePath("images/partnersandschools/RBAI-Crest-RGB.webp")}
+            alt="Royal Belfast Academical Institution"
+            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+      <div className="flex-shrink-0">
+        <div className="w-48 h-28 relative">
+          <img
+            src={getImagePath("images/partnersandschools/St Dominics_Without For Girls_Black(1).avif")}
+            alt="St Dominic's High School"
+            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+      <div className="flex-shrink-0">
+        <div className="w-40 h-28 relative">
+          <img
+            src={getImagePath("images/partnersandschools/campbell.svg")}
+            alt="Campbell College"
+            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+      <div className="flex-shrink-0">
+        <div className="w-40 h-28 relative">
+          <img
+            src={getImagePath("images/partnersandschools/methodist.svg")}
+            alt="Methodist College"
+            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      </div>
+      <div className="flex-shrink-0">
+        <div className="w-40 h-28 relative">
+          <img
+            src={getImagePath("images/partnersandschools/strathern.png")}
+            alt="Strathern School"
             className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
         </div>
@@ -188,16 +242,16 @@ export default function Home() {
       <div className="flex-shrink-0">
         <div className="w-56 h-28 relative">
           <img
-            src={getImagePath("images/Filetoupload,967358,en-2.png")}
+            src={getImagePath("images/partnersandschools/Filetoupload,967358,en-2.png")}
             alt="Partner"
             className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
         </div>
       </div>
       <div className="flex-shrink-0">
-        <div className="w-32 h-28 relative">
+        <div className="w-40 h-28 relative">
           <img
-            src={getImagePath("images/logo.png")}
+            src={getImagePath("images/partnersandschools/IMG_4606.png")}
             alt="Partner"
             className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
