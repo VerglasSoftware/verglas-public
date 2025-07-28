@@ -49,11 +49,11 @@ export default function People() {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16 mt-12 justify-center">
               <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl">
+                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/vgdan.png")}
                     alt="Dan O'Sullivan"
-                    className="rounded-xl aspect-square w-[175px] h-[175px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Dan Adams</span>
@@ -91,11 +91,11 @@ export default function People() {
               </div>
 
               <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl">
+                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/dylan.jpeg")}
                     alt="Dylan McKenzie"
-                    className="rounded-xl aspect-square w-[175px] h-[175px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Dylan McKenzie</span>
@@ -131,11 +131,11 @@ export default function People() {
               </div>
 
               <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl">
+                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/axel2.png")}
                     alt="Axel Graham"
-                    className="rounded-xl aspect-square w-[175px] h-[175px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Axel Graham</span>
@@ -159,11 +159,11 @@ export default function People() {
               </div>
 
               <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl">
+                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/vgbev.png")}
                     alt="Bébhinn Bell"
-                    className="rounded-xl aspect-square w-[175px] h-[175px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Bébhinn Bell</span>
@@ -187,11 +187,11 @@ export default function People() {
               </div>
 
               <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl">
+                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/jak2.png")}
                     alt="Jake Gillman"
-                    className="rounded-xl aspect-square w-[175px] h-[175px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Jake Gillman</span>
@@ -213,11 +213,11 @@ export default function People() {
               </div>
 
               <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl">
+                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/vgma.png")}
                     alt="Matthew McKay"
-                    className="rounded-xl aspect-square w-[175px] h-[175px] object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Matthew Hoey</span>
