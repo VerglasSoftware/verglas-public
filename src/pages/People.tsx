@@ -29,7 +29,7 @@ export default function People() {
             <div className="flex justify-center items-center">
               <p>
                 Our shareholders hand-pick the most innovative and creative
-                minds to sit on the Board and Outreach Committee, to ensure that
+                minds to sit on the Board, to ensure that
                 Verglas brings our customers, partners and attendees the best
                 experience possible.
               </p>
@@ -43,7 +43,7 @@ export default function People() {
           <div id="about" className="py-20 pb-14 mt-4">
             <div className="flex justify-start items-start">
               <span className="font-medium text-neutral-700 text-4xl text-start">
-                executive board.
+                the board of directors.
               </span>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
@@ -104,8 +104,20 @@ export default function People() {
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-2">
-                  <a href="https://www.linkedin.com/in/bebhinn-bell-84a28a2b7/">
+                  <a href="https://www.linkedin.com/in/dylanmck/">
                     <BsLinkedin
+                      size={25}
+                      className="text-black/70 hover:text-black/50"
+                    />
+                  </a>
+                  <a href="https://github.com/dylanmckenzie">
+                    <BsGithub
+                      size={25}
+                      className="text-black/70 hover:text-black/50"
+                    />
+                  </a>
+                  <a href="https://dmck.dev/">
+                    <BsGlobeEuropeAfrica
                       size={25}
                       className="text-black/70 hover:text-black/50"
                     />
@@ -152,7 +164,7 @@ export default function People() {
                     href="tel:+442896943669,114"
                     className="underline text-primary-500"
                   >
-                    028 9694 3669 ext. 114
+                    028 9694 3669 ext. 115
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-2">
@@ -206,7 +218,7 @@ export default function People() {
                 <span className="mt-6 text-lg font-medium">Matthew Hoey</span>
                 <span className="mt-1">Director.</span>
                 <div className="flex flex-row mt-4 gap-2">
-                  <a href="https://www.linkedin.com/in/matthew-hoey-b31ba4302/">
+                  <a href="https://www.linkedin.com/in/ma-t/">
                     <BsLinkedin
                       size={25}
                       className="text-black/70 hover:text-black/50"
