@@ -248,15 +248,6 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex-shrink-0">
-        <div className="w-40 h-28 relative">
-          <img
-            src={getImagePath("images/partnersandschools/IMG_4606.png")}
-            alt="Partner"
-            className="w-full h-full object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
-          />
-        </div>
-      </div>
     </div>
   </Marquee>
 </div>
