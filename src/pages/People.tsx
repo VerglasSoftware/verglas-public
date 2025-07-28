@@ -42,13 +42,13 @@ export default function People() {
       <div className="w-screen flex items-center justify-center">
         <div className="w-3/4">
           <div id="about" className="py-20 pb-14 mt-4">
-            <div className="flex justify-start items-start">
-              <span className="font-medium text-neutral-700 text-4xl text-start">
+            <div className="flex justify-start items-star">
+              <span className="font-medium text-neutral-700 text-4xl text-center">
                 the board of directors.
               </span>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8">
-              <div className="flex flex-col group">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 mt-8 justify-center">
+              <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
                     src={getImagePath("images/people/vgdan.png")}
@@ -62,10 +62,10 @@ export default function People() {
                 </span>
                 <span className="mt-1">
                   <a
-                    href="tel:+442896943669,112"
+                    href="tel:+442896943669,101"
                     className="underline text-primary-500 hover:text-primary-600 transition-colors"
                   >
-                    028 9694 3669 ext. 112
+                    028 9694 3669 ext. 101
                   </a>
                 </span>
                 <div className="flex flex-row mt-4 gap-3">
@@ -90,7 +90,7 @@ export default function People() {
                 </div>
               </div>
 
-              <div className="flex flex-col group">
+              <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
                     src={getImagePath("images/people/dylan.jpeg")}
@@ -102,7 +102,7 @@ export default function People() {
                 <span className="mt-1 text-neutral-600">Chief Operating Officer.</span>
                 <span className="mt-1">
                   <a
-                    href="tel:+442896943669,114"
+                    href="tel:+442896943669,102"
                     className="underline text-primary-500 hover:text-primary-600 transition-colors"
                   >
                     028 9694 3669 ext. 102
@@ -130,7 +130,7 @@ export default function People() {
                 </div>
               </div>
 
-              <div className="flex flex-col group">
+              <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
                     src={getImagePath("images/people/axel2.png")}
@@ -142,7 +142,7 @@ export default function People() {
                 <span className="mt-1 text-neutral-600">Chief Marketing Officer.</span>
                 <span className="mt-1">
                   <a
-                    href="tel:+442896943669,114"
+                    href="tel:+442896943669,103"
                     className="underline text-primary-500 hover:text-primary-600 transition-colors"
                   >
                     028 9694 3669 ext. 103
@@ -158,7 +158,7 @@ export default function People() {
                 </div>
               </div>
 
-              <div className="flex flex-col group">
+              <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
                     src={getImagePath("images/people/vgbev.png")}
@@ -170,7 +170,7 @@ export default function People() {
                 <span className="mt-1 text-neutral-600">Secretary.</span>
                 <span className="mt-1">
                   <a
-                    href="tel:+442896943669,114"
+                    href="tel:+442896943669,104"
                     className="underline text-primary-500 hover:text-primary-600 transition-colors"
                   >
                     028 9694 3669 ext. 104
@@ -186,7 +186,7 @@ export default function People() {
                 </div>
               </div>
 
-              <div className="flex flex-col group">
+              <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
                     src={getImagePath("images/people/jak2.png")}
@@ -212,7 +212,7 @@ export default function People() {
                 </div>
               </div>
 
-              <div className="flex flex-col group">
+              <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
                     src={getImagePath("images/people/vgma.png")}
@@ -245,13 +245,13 @@ export default function People() {
       <div className="w-screen flex items-center justify-center">
         <div className="w-3/4 sm:w-1/2">
           <div id="about" className="py-20 grid md:grid-cols-2 gap-12">
-            <div className="flex justify-start items-start flex-col">
-              <span className="font-bold text-neutral-700 text-4xl md:text-end mb-4">
+            <div className="flex justify-center items-start flex-col">
+              <span className="font-bold text-neutral-700 text-4xl text-center mb-4">
                 company policies & legal documents.
               </span>
             </div>
-            <div className="flex justify-start items-start mt-6">
-              <div>
+            <div className="flex justify-center items-start mt-6">
+              <div className="text-center">
                 <p className="text-lg leading-relaxed">
                   We provide up-to-date information on our company policies and
                   legal documents to our customers and partners. All documents
