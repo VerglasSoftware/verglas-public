@@ -48,7 +48,7 @@ IglooCode™ and Educatr™ are trademarks of Verglas (NI) Limited.
       </p>
 
       <p className="text-center text-primary-100/70 text-sm">
-        © 2025 Verglas Software Limited. All rights reserved.
+        © 2025 Verglas (NI) Limited. All rights reserved.
       </p>
     </footer>
   );
