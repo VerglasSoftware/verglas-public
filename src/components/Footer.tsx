@@ -63,8 +63,7 @@ export default function Footer({ }: FooterProps) {
             Registered office: Office 218, 92 Castle Street, Belfast, BT1 1HE.
           </p>
           <p className="mb-4 font-light">
-            Verglas, IglooCode™ and/or Educatr™ are not associated with Slemish College or Strathearn School, 
-            and any publications from us do not represent their views.
+            Verglas is not associated with our founding schools, and any publications from us are not representative of our partners or sponsors.
           </p>
           <p className="font-light">
             IglooCode™ and Educatr™ are trademarks of Verglas (NI) Limited.
