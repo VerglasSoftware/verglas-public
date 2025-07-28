@@ -34,12 +34,21 @@ export default function Footer({ }: FooterProps) {
         </div>
       </div>
 
-      <p className="text-center text-primary-100/70 text-sm max-w-2xl">
-        © 2025 Verglas Software Limited. All rights reserved. Verglas (NI) Limited is a company registered in Northern Ireland (no. NI716105). Registered office: Office 218, 92 Castle Street, Belfast, BT1 1HE.
+      <div className="text-center text-primary-100/90 text-sm mb-6">
+        <p>T: +44 (0) 28 9694 3669</p>
+        <p>E: hello@verglas.io</p>
+      </div>
+
+      <p className="text-center text-primary-100/50 text-sm max-w-2xl mb-4">
+        Verglas (NI) Limited is a company registered in Northern Ireland (no. NI716105). Registered office: Office 218, 92 Castle Street, Belfast, BT1 1HE.
 
 Verglas, IglooCode™ and/or Educatr™ are not associated with Slemish College or Strathearn School, and any publications from us do not represent their views.
 
 IglooCode™ and Educatr™ are trademarks of Verglas (NI) Limited.
+      </p>
+
+      <p className="text-center text-primary-100/70 text-sm">
+        © 2025 Verglas Software Limited. All rights reserved.
       </p>
     </footer>
   );
