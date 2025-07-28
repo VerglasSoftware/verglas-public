@@ -30,9 +30,8 @@ export default function People() {
             <div className="flex justify-center items-center">
               <p className="text-xl leading-relaxed font-light">
                 Our shareholders hand-pick the most innovative and creative
-                minds to sit on the Board, to ensure that
-                Verglas brings our customers, partners and attendees the best
-                experience possible.
+                minds to sit on the Board, to ensure that Verglas brings our
+                customers, partners and attendees the best experience possible.
               </p>
             </div>
           </div>
@@ -69,19 +68,28 @@ export default function People() {
                   </a>
                 </span>
                 <div className="flex flex-row mt-6 gap-4">
-                  <a href="https://linkedin.com/in/dandabs" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://linkedin.com/in/dandabs"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsLinkedin
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
                     />
                   </a>
-                  <a href="https://github.com/dandabs" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://github.com/dandabs"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsGithub
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
                     />
                   </a>
-                  <a href="https://dandabs.io" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://dandabs.io"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsGlobeEuropeAfrica
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
@@ -99,7 +107,9 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Dylan McKenzie</span>
-                <span className="mt-2 text-neutral-600 font-light">Chief Operating Officer.</span>
+                <span className="mt-2 text-neutral-600 font-light">
+                  Chief Operating Officer.
+                </span>
                 <span className="mt-2">
                   <a
                     href="tel:+442896943669,102"
@@ -109,19 +119,28 @@ export default function People() {
                   </a>
                 </span>
                 <div className="flex flex-row mt-6 gap-4">
-                  <a href="https://www.linkedin.com/in/dylanmck/" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://www.linkedin.com/in/dylanmck/"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsLinkedin
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
                     />
                   </a>
-                  <a href="https://github.com/dylanmckenzie" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://github.com/dylanmckenzie"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsGithub
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
                     />
                   </a>
-                  <a href="https://dmck.dev/" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://dmck.dev/"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsGlobeEuropeAfrica
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
@@ -139,7 +158,9 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Axel Graham</span>
-                <span className="mt-2 text-neutral-600 font-light">Chief Marketing Officer.</span>
+                <span className="mt-2 text-neutral-600 font-light">
+                  Chief Marketing Officer.
+                </span>
                 <span className="mt-2">
                   <a
                     href="tel:+442896943669,103"
@@ -149,7 +170,10 @@ export default function People() {
                   </a>
                 </span>
                 <div className="flex flex-row mt-6 gap-4">
-                  <a href="https://www.linkedin.com/in/alex-graham-a37239335/" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://www.linkedin.com/in/alex-graham-a37239335/"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsLinkedin
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
@@ -167,7 +191,9 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Bébhinn Bell</span>
-                <span className="mt-2 text-neutral-600 font-light">Secretary.</span>
+                <span className="mt-2 text-neutral-600 font-light">
+                  Secretary.
+                </span>
                 <span className="mt-2">
                   <a
                     href="tel:+442896943669,104"
@@ -177,7 +203,10 @@ export default function People() {
                   </a>
                 </span>
                 <div className="flex flex-row mt-6 gap-4">
-                  <a href="https://www.linkedin.com/in/bebhinn-bell-84a28a2b7/" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://www.linkedin.com/in/bebhinn-bell-84a28a2b7/"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsLinkedin
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
@@ -195,15 +224,23 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Jake Gillman</span>
-                <span className="mt-2 text-neutral-600 font-light">Director.</span>
+                <span className="mt-2 text-neutral-600 font-light">
+                  Director.
+                </span>
                 <div className="flex flex-row mt-6 gap-4">
-                  <a href="https://uk.linkedin.com/in/jake-gillman-265608302" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://uk.linkedin.com/in/jake-gillman-265608302"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsLinkedin
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
                     />
                   </a>
-                  <a href="https://github.com/JakeyGilly" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://github.com/JakeyGilly"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsGithub
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
@@ -221,15 +258,23 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Matthew Hoey</span>
-                <span className="mt-2 text-neutral-600 font-light">Director.</span>
+                <span className="mt-2 text-neutral-600 font-light">
+                  Director.
+                </span>
                 <div className="flex flex-row mt-6 gap-4">
-                  <a href="https://www.linkedin.com/in/ma-t/" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://www.linkedin.com/in/ma-t/"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsLinkedin
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"
                     />
                   </a>
-                  <a href="https://github.com/JustMentalMatt" className="hover:scale-110 transition-transform">
+                  <a
+                    href="https://github.com/JustMentalMatt"
+                    className="hover:scale-110 transition-transform"
+                  >
                     <BsGithub
                       size={28}
                       className="text-black/70 hover:text-primary-600 transition-colors"

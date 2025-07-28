@@ -1,7 +1,7 @@
-import { Helmet } from 'react-helmet-async';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import type { LayoutProps } from '@/types';
+import { Helmet } from "react-helmet-async";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import type { LayoutProps } from "@/types";
 
 const siteTitle = "Verglas";
 

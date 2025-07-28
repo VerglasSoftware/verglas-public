@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import Layout from '@/components/Layout';
-import { getPostData } from '@/lib/blogData';
-import type { PostData } from '@/types';
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import Layout from "@/components/Layout";
+import { getPostData } from "@/lib/blogData";
+import type { PostData } from "@/types";
 
 export default function Post() {
   const { date, slug } = useParams<{ date: string; slug: string }>();
@@ -48,8 +48,8 @@ export default function Post() {
 
   return (
     <Layout title={postData.title}>
-      <div 
-        className="h-[35vh] w-screen bg-center bg-cover flex items-center justify-start relative overflow-hidden" 
+      <div
+        className="h-[35vh] w-screen bg-center bg-cover flex items-center justify-start relative overflow-hidden"
         id="hero"
         style={{ backgroundImage: `url('${postData.image}')` }}
       >
@@ -65,16 +65,17 @@ export default function Post() {
         <div className="w-3/4 sm:w-1/2">
           <div id="about" className="py-28 space-y-10">
             <p className="text-start text-neutral-400 text-xl font-light">
-              on {new Date(postData.date).toLocaleDateString('en-gb', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric'
+              on{" "}
+              {new Date(postData.date).toLocaleDateString("en-gb", {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
               })}
             </p>
-            
-            <article 
-              className="prose prose-xl max-w-none prose-headings:text-neutral-700 prose-p:text-neutral-600 prose-p:leading-relaxed prose-p:font-light prose-headings:font-bold prose-a:text-primary-600 prose-a:decoration-primary-600 prose-a:decoration-2 prose-a:underline-offset-4 hover:prose-a:text-primary-700" 
-              dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }} 
+
+            <article
+              className="prose prose-xl max-w-none prose-headings:text-neutral-700 prose-p:text-neutral-600 prose-p:leading-relaxed prose-p:font-light prose-headings:font-bold prose-a:text-primary-600 prose-a:decoration-primary-600 prose-a:decoration-2 prose-a:underline-offset-4 hover:prose-a:text-primary-700"
+              dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
             />
           </div>
         </div>

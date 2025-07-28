@@ -1,14 +1,13 @@
-import { getImagePath } from '@/lib/utils';
-import { parseMarkdown } from '@/lib/markdown';
-import type { PostData } from '@/types';
+import { getImagePath } from "@/lib/utils";
+import { parseMarkdown } from "@/lib/markdown";
+import type { PostData } from "@/types";
 
-// Static blog post data with markdown content parsed at build time
 export const blogPosts: PostData[] = [
   {
-    date: '2024-01',
-    slug: 'educatr-privacy-policy',
-    title: 'Educatr Privacy Policy',
-    image: getImagePath('images/DSC01750.jpeg'),
+    date: "2024-01",
+    slug: "educatr-privacy-policy",
+    title: "Educatr Privacy Policy",
+    image: getImagePath("images/DSC01750.jpeg"),
     contentHtml: parseMarkdown(`
 ## PRIVACY POLICY
 
@@ -53,13 +52,13 @@ We collect personal information that you voluntarily provide to us when you regi
 **Sensitive Information.** When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information: student data.
 
 **Payment Data.** We may collect data necessary to process your payment if you make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is stored by Stripe.
-    `)
+    `),
   },
   {
-    date: '2023-10',
-    slug: 'igloocode-2024-launched',
-    title: 'Immediate Release: Verglas launches IglooCode 2024',
-    image: getImagePath('images/DSC01901.jpeg'),
+    date: "2023-10",
+    slug: "igloocode-2024-launched",
+    title: "Immediate Release: Verglas launches IglooCode 2024",
+    image: getImagePath("images/DSC01901.jpeg"),
     contentHtml: parseMarkdown(`
 Verglas, the Northern Irish EdTech start-up founded by a group of 17–18-year-olds, has announced the launch of IglooCode 2024 in partnership with Liberty IT and Kainos.
 
@@ -80,13 +79,13 @@ Schools across Northern Ireland are invited to apply as soon as possible to be i
 ---
 
 For more information on this topic, please contact Daniel Adams, Lead Event Coordinator for IglooCode, at dana@verglas.io, or leave a message at +44 (0) 7466 023922 for a call back.
-    `)
+    `),
   },
   {
-    date: '2023-05',
-    slug: 'igloocode-2023-dans-story',
-    title: 'IglooCode 2023: Dan\'s Story',
-    image: getImagePath('images/DSC01779.jpeg'),
+    date: "2023-05",
+    slug: "igloocode-2023-dans-story",
+    title: "IglooCode 2023: Dan's Story",
+    image: getImagePath("images/DSC01779.jpeg"),
     contentHtml: parseMarkdown(`
 Hi! My name is Dan. I'm 17 and I go to Slemish College in Ballymena, where I'm studying AS Software Systems Development, Business and Geography.
 
@@ -103,13 +102,13 @@ Working alongside my friend Jake to put together the capture-the-flag software w
 Overall, the feedback we received for the event was overwhelmingly positive. The vast majority of schools who attended have said that IglooCode was an outstanding event which was very well organized, and have encouraged us to host the event again next year.
 
 We are all very keen to host IglooCode again next year, hopefully again with the support of Liberty IT, Kainos and Queen's University, who we couldn't have done it without this year thanks to their generosity and time they invested into getting us off the ground.
-    `)
+    `),
   },
   {
-    date: '2023-04',
-    slug: 'igloocode-2023-aideens-story',
-    title: 'IglooCode 2023: Aideen\'s Story',
-    image: getImagePath('images/IMG_5782.jpeg'),
+    date: "2023-04",
+    slug: "igloocode-2023-aideens-story",
+    title: "IglooCode 2023: Aideen's Story",
+    image: getImagePath("images/IMG_5782.jpeg"),
     contentHtml: parseMarkdown(`
 My name is Aideen McHugh. I'm 18 and attend Slemish College in Ballymena. I study Maths, Physics and Software Systems Development at A-Level.
 
@@ -122,8 +121,8 @@ One of my main intentions with IglooCode was making sure it was cross-community,
 One of my main takeaways from running IglooCode was how much thought and planning goes into events like it. When I have attended competitions in the past, I hadn't realised how much effort went into every single choice made. It really made me appreciate the dedication that people who plan and organise competitions have, especially throughout the long process of developing the idea into what it becomes. 
 
 The impact that we made on the students by arranging the competition isn't one that can be measured in a traditional sense, but from their constant excited buzz throughout the day, it was clear that they had a great time. This has made us eager to run IglooCode in the future.
-    `)
-  }
+    `),
+  },
 ];
 
 export function getSortedPostsData(): PostData[] {
@@ -131,5 +130,7 @@ export function getSortedPostsData(): PostData[] {
 }
 
 export function getPostData(date: string, slug: string): PostData | null {
-  return blogPosts.find(post => post.date === date && post.slug === slug) || null;
+  return (
+    blogPosts.find((post) => post.date === date && post.slug === slug) || null
+  );
 }
