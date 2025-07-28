@@ -49,11 +49,12 @@ export default function Post() {
   return (
     <Layout title={postData.title}>
       <div 
-        className="h-[25vh] w-screen bg-center bg-cover flex items-center justify-start mt-16" 
+        className="h-[30vh] w-screen bg-center bg-cover flex items-center justify-start relative overflow-hidden" 
         id="hero"
         style={{ backgroundImage: `url('${postData.image}')` }}
       >
-        <div className="bg-white px-4 py-3 pb-4 w-fit text-5xl font-extrabold ms-6 me-6">
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="bg-white/95 backdrop-blur-sm px-6 py-4 pb-5 w-fit text-4xl sm:text-5xl font-extrabold ms-6 me-6 rounded-lg shadow-lg z-10">
           <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
             {postData.title}
           </span>
@@ -62,8 +63,8 @@ export default function Post() {
 
       <div className="w-screen flex items-center justify-center">
         <div className="w-3/4 sm:w-1/2">
-          <div id="about" className="py-20 gap-12">
-            <p className="text-start mb-10 text-neutral-400">
+          <div id="about" className="py-24 space-y-8">
+            <p className="text-start text-neutral-400 text-lg">
               on {new Date(postData.date).toLocaleDateString('en-gb', {
                 day: 'numeric',
                 month: 'long',
@@ -72,7 +73,7 @@ export default function Post() {
             </p>
             
             <article 
-              className="prose max-w-none" 
+              className="prose prose-lg max-w-none prose-headings:text-neutral-700 prose-p:text-neutral-600 prose-p:leading-relaxed" 
               dangerouslySetInnerHTML={{ __html: postData.contentHtml || '' }} 
             />
           </div>

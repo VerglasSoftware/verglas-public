@@ -13,9 +13,10 @@ export default function Press() {
 
   return (
     <Layout title="Press centre">
-      <div className="h-[30vh] w-screen bg-hero5 bg-center bg-cover relative flex items-center" id="hero">
-        <div className="ps-20 text-5xl sm:text-8xl font-extrabold">
-          <div className="bg-white px-4 py-3 pb-4 w-fit">
+      <div className="h-[30vh] w-screen bg-hero5 bg-center bg-cover relative flex items-center overflow-hidden" id="hero">
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="ps-20 text-5xl sm:text-8xl font-extrabold z-10">
+          <div className="bg-white/95 backdrop-blur-sm px-6 py-4 pb-5 w-fit rounded-lg shadow-lg">
             <span className="bg-gradient-to-r from-fuchsia-500 to-sky-400 bg-clip-text text-transparent">
               press centre.
             </span>
@@ -25,33 +26,37 @@ export default function Press() {
 
       <div className="w-screen flex items-center justify-center">
         <div className="w-3/4">
-          <div id="about" className="py-20 grid sm:grid-cols-2 gap-12">
-            <div className="grid md:grid-cols-3 gap-4">
+          <div id="about" className="py-24 grid sm:grid-cols-2 gap-16">
+            <div className="grid md:grid-cols-3 gap-6">
               <div></div>
-              <div className="col-span-2">
-                <span className="font-bold text-neutral-700 text-4xl text-start">transparency and honesty.</span>
-                <div className="flex justify-start items-start mt-3">
-                  <p>We provide up-to-date information on the company and its events to our followers and the media here via our blog. For more information, you can contact us using the details in the page footer.</p>
+              <div className="col-span-2 space-y-6">
+                <span className="font-bold text-neutral-700 text-4xl text-start leading-tight">transparency and honesty.</span>
+                <div className="flex justify-start items-start">
+                  <p className="text-lg leading-relaxed">We provide up-to-date information on the company and its events to our followers and the media here via our blog. For more information, you can contact us using the details in the page footer.</p>
                 </div>
               </div>
             </div>
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-8">
               {allPostsData.map((post) => (
                 <button 
                   key={`${post.date}-${post.slug}`}
-                  className="hover:bg-primary-100 w-full" 
+                  className="hover:bg-primary-50 w-full rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 group relative" 
                   onClick={() => handleNavigate(`/press/${post.date}/${post.slug}`)}
                 >
-                  <div className="w-full h-36 relative">
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full h-full object-cover"
-                    />
+                  <div 
+                    className="w-full h-full absolute inset-0 group-hover:scale-110 transition-transform duration-300"
+                    style={{ 
+                      backgroundImage: `url(${post.image})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center top',
+                      backgroundRepeat: 'no-repeat'
+                    }}
+                  >
                   </div>
-                  <div className="px-1 py-4 flex flex-col items-start">
-                    <span className="font-extrabold text-neutral-700 text-xl text-start">{post.title.toLowerCase()}</span>
-                    <p className="text-start my-1 text-neutral-400">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                  <div className="relative z-10 px-4 py-4 flex flex-col items-start justify-end h-48 text-white">
+                    <span className="font-extrabold text-xl text-start mb-2">{post.title.toLowerCase()}</span>
+                    <p className="text-start mb-3 text-white/80">
                       on {new Date(post.date).toLocaleDateString('en-gb', {
                         day: 'numeric',
                         month: 'long',
@@ -60,7 +65,7 @@ export default function Press() {
                     </p>
                     <Link 
                       to={`/press/${post.date}/${post.slug}`} 
-                      className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px]"
+                      className="font-bold hover:underline text-white decoration-white decoration-2 underline-offset-[5px] transition-colors hover:text-white/90"
                     >
                       Read more...
                     </Link>
