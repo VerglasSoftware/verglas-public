@@ -51,7 +51,7 @@ export default function People() {
                 <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/vgdan.png")}
-                    alt="Dan O'Sullivan"
+                    alt="Dan Adams"
                     className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
@@ -253,7 +253,7 @@ export default function People() {
                 <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
                     src={getImagePath("images/people/vgma.png")}
-                    alt="Matthew McKay"
+                    alt="Matthew Hoey"
                     className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
