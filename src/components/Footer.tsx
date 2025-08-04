@@ -61,13 +61,13 @@ export default function Footer({}: FooterProps) {
               About IglooCode™
             </a>
             <a
-              href="https://iglooco.de/competition"
+              href="https://iglooco.de/#/competition"
               className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
             >
               How it works
             </a>
             <a
-              href="https://iglooco.de/getinvolved"
+              href="https://iglooco.de/#/getinvolved"
               className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
             >
               Get involved
