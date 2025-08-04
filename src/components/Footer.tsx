@@ -55,7 +55,7 @@ export default function Footer({}: FooterProps) {
               IglooCode™
             </span>
             <a
-              href="https://iglooco.de/about"
+              href="https://iglooco.de/"
               className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
             >
               About IglooCode™
@@ -65,12 +65,6 @@ export default function Footer({}: FooterProps) {
               className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
             >
               How it works
-            </a>
-            <a
-              href="https://iglooco.de/team"
-              className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
-            >
-              Meet the team
             </a>
             <a
               href="https://iglooco.de/getinvolved"
