@@ -118,7 +118,7 @@ export default function Products() {
                 students.
               </p>
               <Link
-                to="https://educatr.app"
+                to="https://educa.tr"
                 className="inline-block font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px] transition-colors hover:text-primary-700 text-lg"
               >
                 Learn more...
@@ -142,10 +142,10 @@ export default function Products() {
               Our private beta test is scheduled to begin in November 2023. To
               register for the beta, please fill in the form available at{" "}
               <a
-                href="https://educatr.app/beta"
+                href="https://educa.tr/beta"
                 className="font-bold hover:underline text-primary-600 decoration-primary-600 decoration-2 underline-offset-[5px] transition-colors hover:text-primary-700"
               >
-                educatr.app/beta
+                educa.tr/beta
               </a>
               .
             </p>

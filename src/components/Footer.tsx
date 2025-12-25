@@ -76,13 +76,13 @@ export default function Footer({}: FooterProps) {
           <div className="flex flex-col gap-4 text-center sm:text-start w-full max-w-[200px]">
             <span className="font-bold text-lg text-white mb-2">Educatr™</span>
             <a
-              href="https://educatr.app"
+              href="https://educa.tr"
               className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
             >
               Launch Educatr™
             </a>
             <a
-              href="https://educatr.app/beta"
+              href="https://educa.tr/beta"
               className="text-primary-100/80 hover:text-white hover:translate-x-1 transition-all duration-200 font-light"
             >
               Beta programme
