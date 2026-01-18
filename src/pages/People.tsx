@@ -56,9 +56,6 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Dan Adams</span>
-                <span className="mt-2 text-neutral-600 font-light">
-                  Chief Executive Officer. Founder.
-                </span>
                 <span className="mt-2">
                   <a
                     href="tel:+442896943669,101"
@@ -107,9 +104,6 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Axel Graham</span>
-                <span className="mt-2 text-neutral-600 font-light">
-                  Chief Marketing Officer.
-                </span>
                 <span className="mt-2">
                   <a
                     href="tel:+442896943669,103"
@@ -173,9 +167,6 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Jake Gillman</span>
-                <span className="mt-2 text-neutral-600 font-light">
-                  Director.
-                </span>
                 <div className="flex flex-row mt-6 gap-4">
                   <a
                     href="https://uk.linkedin.com/in/jake-gillman-265608302"
@@ -207,9 +198,6 @@ export default function People() {
                   />
                 </div>
                 <span className="mt-8 text-xl font-medium">Matthew Hoey</span>
-                <span className="mt-2 text-neutral-600 font-light">
-                  Director.
-                </span>
                 <div className="flex flex-row mt-6 gap-4">
                   <a
                     href="https://www.linkedin.com/in/ma-t/"
