@@ -101,57 +101,6 @@ export default function People() {
               <div className="flex flex-col group text-left">
                 <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
                   <img
-                    src={getImagePath("images/people/dylan.jpeg")}
-                    alt="Dylan McKenzie"
-                    className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <span className="mt-8 text-xl font-medium">Dylan McKenzie</span>
-                <span className="mt-2 text-neutral-600 font-light">
-                  Chief Operating Officer.
-                </span>
-                <span className="mt-2">
-                  <a
-                    href="tel:+442896943669,102"
-                    className="underline text-primary-500 hover:text-primary-600 transition-colors font-light"
-                  >
-                    028 9694 3669 ext. 102
-                  </a>
-                </span>
-                <div className="flex flex-row mt-6 gap-4">
-                  <a
-                    href="https://www.linkedin.com/in/dylanmck/"
-                    className="hover:scale-110 transition-transform"
-                  >
-                    <BsLinkedin
-                      size={28}
-                      className="text-black/70 hover:text-primary-600 transition-colors"
-                    />
-                  </a>
-                  <a
-                    href="https://github.com/dylanmckenzie"
-                    className="hover:scale-110 transition-transform"
-                  >
-                    <BsGithub
-                      size={28}
-                      className="text-black/70 hover:text-primary-600 transition-colors"
-                    />
-                  </a>
-                  <a
-                    href="https://dmck.dev/"
-                    className="hover:scale-110 transition-transform"
-                  >
-                    <BsGlobeEuropeAfrica
-                      size={28}
-                      className="text-black/70 hover:text-primary-600 transition-colors"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex flex-col group text-left">
-                <div className="relative overflow-hidden rounded-xl w-[175px] h-[175px]">
-                  <img
                     src={getImagePath("images/people/axel2.png")}
                     alt="Axel Graham"
                     className="rounded-xl aspect-square w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
